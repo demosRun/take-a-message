@@ -1,0 +1,58 @@
+<template>
+  <div id="myCanvasContainer">
+    <canvas width="1000" height="300" id="myCanvas">
+      <p>Anything in here will be replaced on browsers that support the canvas element</p>
+    </canvas>
+  </div>
+  <div id="tags" class="tag-box">
+    <ul>
+      <li><a href="/#">医疗服务</a></li>
+      <li><a href="/#">农村改革</a></li>
+      <li><a href="/#">城镇住房</a></li>
+      <li><a href="/#">污染防治</a></li>
+      <li><a href="/#">百姓收入</a></li>
+      <li><a href="/#">营商环境</a></li>
+      <li><a href="/#">城市交通</a></li>
+      <li><a href="/#">新型城镇化</a></li>
+      <li><a href="/#">区域协调</a></li>
+      <li><a href="/#">政务服务</a></li>
+      <li><a href="/#">创新创业</a></li>
+      <li><a href="/#">教育保障</a></li>
+      <li><a href="/#">精准扶贫</a></li>
+      <li><a href="/#">乡村振兴</a></li>
+      <li><a href="/#">文化传承</a></li>
+      <li><a href="/#">绿色发展</a></li>
+      <li><a href="/#">城市发展</a></li>
+      <li><a href="/#">休闲旅游</a></li>
+      <li><a href="/#">财政支出</a></li>
+      <li><a href="/#">网络环境</a></li>
+    </ul>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    created: () => {
+      TagCanvas.Start('myCanvas','tags',{
+        textColour: '#ff0000',
+        frontSelect: true,
+        outlineColour: '#ff00ff',
+        textHeight: 20,
+        maxSpeed: 0.05,
+        wheelZoom: false,
+        stretchX: 2,
+        dragControl: true
+      })
+    }
+  }
+</script>
+
+
+<style lang="less">
+  canvas {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+</style>

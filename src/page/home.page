@@ -1,0 +1,42 @@
+<template>
+  <div class="main-box">
+    <temple name="titleBar" src="./src/page/topBar.page"></temple>
+    <temple name="banner" src="./src/page/banner.page"></temple>
+    <div class="title care"></div>
+    <temple name="tagCloud" src="./src/page/tagCloud.page"></temple>
+    <div class="title discuss"></div>
+    <temple name="messageBox" src="./src/page/messageBox.page"></temple>
+    <div class="title other"></div>
+    <temple name="swiper" src="./src/page/swiper.page"></temple>
+    <temple name="footer" src="./src/page/footer.page"></temple>
+    <temple name="copyright" src="http://cunchu.site/ozzx/template/copyright.page"></temple>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    data: {
+    },
+    created: () => {
+    }
+  }
+</script>
+
+
+<style lang="less">
+.title {
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 16px 0;
+}
+.care {
+  background-image: url('@&care.png&');
+}
+.discuss {
+  background-image: url('@&discuss.png&');
+}
+.other {
+  background-image: url('@&other.png&');
+}
+</style>

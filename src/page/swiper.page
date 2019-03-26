@@ -1,0 +1,62 @@
+<template>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="@&1.jpg&"/><div class="slide-text">这是介绍内容</div></div>
+      <div class="swiper-slide"><img src="@&2.jpg&"/><div class="slide-text">这是介绍内容</div></div>
+      <div class="swiper-slide"><img src="@&3.jpg&"/><div class="slide-text">这是介绍内容</div></div>
+      <div class="swiper-slide"><img src="@&4.png&"/><div class="slide-text">这是介绍内容</div></div>
+      <div class="swiper-slide"><img src="@&5.jpg&"/><div class="slide-text">这是介绍内容</div></div>
+      <div class="swiper-slide"><img src="@&6.png&"/><div class="slide-text">这是介绍内容</div></div>
+      <div class="swiper-slide"><img src="@&7.jpg&"/><div class="slide-text">这是介绍内容</div></div>
+      <div class="swiper-slide"><img src="@&8.jpg&"/><div class="slide-text">这是介绍内容</div></div>
+    </div>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    created: () => {
+      var mySwiper = new Swiper('.swiper-container',{
+        slidesPerView: 3,
+        //其他设置
+        tdFlow: {
+          rotate : 10,
+          stretch :0,
+          depth: 400,
+          modifier : 1,
+          shadows:true
+        }
+      })
+    }
+  }
+</script>
+
+
+<style lang="less">
+.swiper-slide {
+  height: 600px;
+  width: 400px;
+  overflow: hidden;
+  background-color: chartreuse;
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .slide-text {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 14px;
+    overflow: hidden;
+  }
+}
+.swiper-container {
+  width: 1000px;
+  height: 600px;
+  margin: 30px auto;
+}
+</style>

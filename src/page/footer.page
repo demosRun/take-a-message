@@ -1,0 +1,79 @@
+<template>
+  <footer class="footer-box">
+    <div class="content">
+      <div class="logo content-item"></div>
+      <div class="qr-box content-item">
+        <div class="qr-box-item">
+          <img src="@&qr.png&"/>
+          <div class="text">微信公众号</div>
+        </div>
+        <div class="qr-box-item">
+          <img src="@&qr.png&"/>
+          <div class="text">微信小程序</div>
+        </div>
+        <div class="qr-box-item">
+          <img src="@&qr.png&"/>
+          <div class="text">客户端下载</div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </footer>
+</template>
+
+<script>
+  module.exports = {
+    created: () => {
+      const screen = ozzx.tool.getScreenInfo()
+      $dom('bannerBox').style.height = screen.clientWidth * 0.459 + 'px'
+    }
+  }
+</script>
+
+<style>
+.footer-box {
+  height: 220px;
+  background-color: #ebf4ff;
+}
+.content {
+  width: 1000px;
+  height: 219px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-bottom: 1px solid #dddddd;
+}
+.content-item {
+  float: left;
+}
+.qr-box-item {
+  float: right;
+  margin: 20px 5px;
+}
+.logo {
+  height: 100%;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('@&difang-logo.png&');
+}
+.qr-box {
+  height: 160px;
+  margin: 30px 0;
+  width: 50%;
+  
+}
+.qr-box img {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+.qr-box .text {
+  color: rgba(76, 76, 76, 1.00);
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+</style>

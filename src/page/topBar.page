@@ -1,0 +1,36 @@
+<template>
+  <div class="title-bar">
+    <div class="content">
+      <img class="logo content-item" src="@&logo.png&"/>
+      <div class="link content-item">人民网首页</div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</template>
+
+<style>
+.content {
+  width: 1000px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.logo {
+  margin: 5px;
+}
+.title-bar {
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+}
+.content-item {
+  float: left;
+}
+.link {
+  color: rgba(102, 102, 102, 1.00);
+  font-size: 14px;
+  margin: 0 10px;
+}
+</style>
