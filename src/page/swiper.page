@@ -30,6 +30,7 @@
           loop: true,
           // 禁用鼠标点击
           simulateTouch: false,
+          onlyExternal: true,
           slidesPerView: 3,
           //其他设置
           tdFlow: {

@@ -28,7 +28,9 @@
           <div class="clear"></div>
         `
         let itemList = document.getElementsByClassName('left-item')
-        itemList[0].classList.add('active')
+        setTimeout(() => {
+          itemList[0].classList.add('active')
+        }, 0)
         setTimeout(() => {
           
           for (let ind = 0; ind < itemList.length; ind ++) {
@@ -57,6 +59,7 @@
 .message-box {
   max-width: 1000px;
   margin: auto;
+  position: relative;
 }
 .message-item {
   float: left;

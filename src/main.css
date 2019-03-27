@@ -1,12 +1,16 @@
-body {
+body, html {
   background-color: white;
+  position: relative;
+  overflow:scroll;
+  -webkit-overflow-scrolling:touch; /*兼容IOS*/
+  overflow-x: hidden;
 }
 .min {
   width: 100%;
   overflow-x: hidden;
 }
 .ox-titleBar {
-  position: fixed;
+  position: absolute;
   background-color: white;
   width: 100%;
   z-index: 9;

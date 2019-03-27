@@ -257,7 +257,9 @@ window.ozzx = {
               });
               html += "\n          </div>\n          <div class=\"right-box\" id=\"messageBoxRightBox\">".concat(messageList[0].data, "</div>\n          <div class=\"clear\"></div>\n        ");
               var itemList = document.getElementsByClassName('left-item');
-              itemList[0].classList.add('active');
+              setTimeout(function () {
+                itemList[0].classList.add('active');
+              }, 0);
               setTimeout(function () {
                 var _loop = function _loop(ind) {
                   var element = itemList[ind];
@@ -301,6 +303,7 @@ window.ozzx = {
                 loop: true,
                 // 禁用鼠标点击
                 simulateTouch: false,
+                onlyExternal: true,
                 slidesPerView: 3,
                 //其他设置
                 tdFlow: {

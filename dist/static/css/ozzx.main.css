@@ -29,7 +29,7 @@ body, html, .ox {
 }
 
 .ox-titleBar .logo {
-  margin: 5px;
+  margin: 5px 10px;
 }
 
 .ox-titleBar .title-bar {
@@ -93,9 +93,14 @@ body, html, .ox {
 .ox-tagCloud .rank-3 {
   font-size: 28px;
   color: #a9a9a9;
+}
+
+.ox-tagCloud .tag-cloud-box {
+  position: relative;
 }.ox-messageBox .message-box {
   max-width: 1000px;
   margin: auto;
+  position: relative;
 }
 
 .ox-messageBox .message-item {

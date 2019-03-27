@@ -18,7 +18,7 @@
   margin: auto;
 }
 .logo {
-  margin: 5px;
+  margin: 5px 10px;
 }
 .title-bar {
   height: 40px;

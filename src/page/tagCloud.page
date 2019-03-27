@@ -1,5 +1,5 @@
 <template>
-  <div id="myCanvasContainer">
+  <div id="myCanvasContainer" class="tag-cloud-box">
     <canvas width="1000" height="400" id="myCanvas">
       <p>Anything in here will be replaced on browsers that support the canvas element</p>
     </canvas>
@@ -73,5 +73,8 @@
   .rank-3 {
     font-size: 28px;
     color: #a9a9a9;
+  }
+  .tag-cloud-box {
+    position: relative;
   }
 </style>
