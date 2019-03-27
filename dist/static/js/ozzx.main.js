@@ -253,8 +253,15 @@ window.ozzx = {
           }
         },
         "swiper": {
+          "data": {
+            "mySwiper": null
+          },
           "created": function created() {
-            var mySwiper = new Swiper('.swiper-container', {
+            this.data.mySwiper = new Swiper('.swiper-container', {
+              autoplay: 3000,
+              loop: true,
+              // 禁用鼠标点击
+              simulateTouch: false,
               slidesPerView: 3,
               //其他设置
               tdFlow: {
@@ -265,6 +272,12 @@ window.ozzx = {
                 shadows: true
               }
             });
+          },
+          "last": function last() {
+            this.data.mySwiper.swipePrev();
+          },
+          "next": function next() {
+            this.data.mySwiper.swipeNext();
           }
         },
         "footer": {
