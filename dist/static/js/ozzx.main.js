@@ -206,13 +206,16 @@ window.ozzx = {
         "tagCloud": {
           "created": function created() {
             TagCanvas.Start('myCanvas', 'tags', {
+              weight: true,
+              fadeIn: 1000,
+              weightMode: 'both',
               textColour: '#ff0000',
               frontSelect: true,
               outlineColour: '#ff00ff',
               textHeight: 20,
               maxSpeed: 0.05,
               wheelZoom: false,
-              stretchX: 2,
+              stretchX: 1.6,
               dragControl: true
             });
           }
