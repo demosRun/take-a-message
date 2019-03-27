@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- 页面区域 -->
-    <div class="ox-home ox" id="ox-home"><div class="main-box">
+    <div class="ox-home ox" id="ox-home"><div class="main-box" @name="mainBox">
     <div class="ox-titleBar"><div class="title-bar">
     <div class="content">
       <img class="logo content-item" src="./static/resource/logo.png">
@@ -60,43 +60,11 @@
   </div>
 </div>
     <div class="title discuss"></div>
-    <div class="ox-messageBox"><div class="message-box">
-    <div class="message-item">
-      <div class="message-box-title">创新创业</div>
-      <div class="message-box-text">“能否为大学生开辟创业创新绿色通道”“这里急需创业创新人才培育”“农民工返乡创业资金有限怎么办”……不少农民工、大中专毕业生、科技人员等身份的网友留言，就创业中遇到的问题，写下了看法和建议。</div>
-    </div><div class="message-item">
-      <div class="message-box-title">精准扶贫</div>
-      <div class="message-box-text">2019年是打赢脱贫攻坚战极为关键的一年。围绕攻坚脱贫，网友们关心教育、产业与生态扶贫，关注搬迁安置、就业扶持与提高收入等，期待加大攻坚力度，让贫困人口早日摆脱贫困。</div>
-    </div><div class="message-item">
-      <div class="message-box-title">教育保障</div>
-      <div class="message-box-text">“多办公立幼儿园”“解决农村孩子上学远、教学质量不高的问题”“将减负进行到底”“希望提高民办教师待遇”……基础教育、保障教师待遇成为网友在两会期间关注的焦点。</div>
-    </div><div class="message-item">
-      <div class="message-box-title">城市治理</div>
-      <div class="message-box-text">把家乡建设成宜居宜业新城市，是很多网友的期盼。围绕交通出行是否安全顺畅、市容市貌是否干净整洁、经济发展是否绿色可持续等话题，网友们给出了许多建议和期待，如“彻底解决电动车治理的老大难问题”“盼智能交通系统提供便利化出行方式”“期待啃下污染防治硬骨头”等。</div>
-    </div><div class="message-item">
-      <div class="message-box-title">创新创业</div>
-      <div class="message-box-text">“能否为大学生开辟创业创新绿色通道”“这里急需创业创新人才培育”“农民工返乡创业资金有限怎么办”……不少农民工、大中专毕业生、科技人员等身份的网友留言，就创业中遇到的问题，写下了看法和建议。</div>
-    </div><div class="message-item">
-      <div class="message-box-title">精准扶贫</div>
-      <div class="message-box-text">2019年是打赢脱贫攻坚战极为关键的一年。围绕攻坚脱贫，网友们关心教育、产业与生态扶贫，关注搬迁安置、就业扶持与提高收入等，期待加大攻坚力度，让贫困人口早日摆脱贫困。</div>
-    </div><div class="message-item">
-      <div class="message-box-title">教育保障</div>
-      <div class="message-box-text">“多办公立幼儿园”“解决农村孩子上学远、教学质量不高的问题”“将减负进行到底”“希望提高民办教师待遇”……基础教育、保障教师待遇成为网友在两会期间关注的焦点。</div>
-    </div><div class="message-item">
-      <div class="message-box-title">城市治理</div>
-      <div class="message-box-text">把家乡建设成宜居宜业新城市，是很多网友的期盼。围绕交通出行是否安全顺畅、市容市貌是否干净整洁、经济发展是否绿色可持续等话题，网友们给出了许多建议和期待，如“彻底解决电动车治理的老大难问题”“盼智能交通系统提供便利化出行方式”“期待啃下污染防治硬骨头”等。</div>
-    </div><div class="message-item">
-      <div class="message-box-title">创新创业</div>
-      <div class="message-box-text">“能否为大学生开辟创业创新绿色通道”“这里急需创业创新人才培育”“农民工返乡创业资金有限怎么办”……不少农民工、大中专毕业生、科技人员等身份的网友留言，就创业中遇到的问题，写下了看法和建议。</div>
-    </div><div class="message-item">
-      <div class="message-box-title">精准扶贫</div>
-      <div class="message-box-text">2019年是打赢脱贫攻坚战极为关键的一年。围绕攻坚脱贫，网友们关心教育、产业与生态扶贫，关注搬迁安置、就业扶持与提高收入等，期待加大攻坚力度，让贫困人口早日摆脱贫困。</div>
-    </div>
-    <div class="clear"></div>
+    <div class="ox-messageBox"><div class="message-box" @name="messageBox">
   </div>
 </div>
     <div class="title other"></div>
-    <div class="ox-swiper"><div class="swiper-container">
+    <div class="ox-swiper"><div class="swiper-container" @name="swiperContainer">
     <div class="swiper-wrapper">
       <div class="swiper-slide"><img src="./static/resource/1.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
       <div class="swiper-slide"><img src="./static/resource/2.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
@@ -115,15 +83,15 @@
     <div class="content">
       <div class="logo content-item"></div>
       <div class="qr-box content-item">
-        <div class="qr-box-item">
+        <div class="qr-box-item left">
           <img src="./static/resource/qr.png">
           <div class="text">微信公众号</div>
         </div>
-        <div class="qr-box-item">
+        <div class="qr-box-item middle">
           <img src="./static/resource/qr.png">
           <div class="text">微信小程序</div>
         </div>
-        <div class="qr-box-item">
+        <div class="qr-box-item right">
           <img src="./static/resource/qr.png">
           <div class="text">客户端下载</div>
         </div>
@@ -144,6 +112,7 @@
 </div>
     <!-- 页面脚本 -->
     <script src="./static/js/autoReload.js" type="text/javascript"></script>
+    <script src="./static/js/main.js" type="text/javascript" ></script>
     <script src="./static/js/tagcanvas.js" type="text/javascript" ></script>
     <script src="./static/js/swiper2.js" type="text/javascript" ></script>
     <script src="./static/js/3dflow.js" type="text/javascript" ></script>

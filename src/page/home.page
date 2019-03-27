@@ -1,5 +1,5 @@
 <template>
-  <div class="main-box">
+  <div class="main-box" @name="mainBox">
     <temple name="titleBar" src="./src/page/topBar.page"></temple>
     <temple name="banner" src="./src/page/banner.page"></temple>
     <div class="title care"></div>
@@ -18,6 +18,10 @@
     data: {
     },
     created: () => {
+      const screen = ozzx.tool.getScreenInfo()
+      if (screen.ratio < 1) {
+        $dom('mainBox').classList.add('min')
+      }
     }
   }
 </script>
@@ -38,5 +42,9 @@
 }
 .other {
   background-image: url('@&other.png&');
+}
+.min .title {
+  width: 100%;
+  background-size: auto 60%;
 }
 </style>

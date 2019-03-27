@@ -54,6 +54,19 @@ body, html, .ox {
   position: relative;
 }
 
+.ox-banner .min {
+  background-position-y: 30px;
+  background-image: url('../resource/h5-banana.png');
+}
+
+.ox-banner .min .text-box {
+  font-size: 12px;
+  line-height: 20px;
+  width: 76%;
+  left: 16%;
+  font-weight: bold;
+}
+
 .ox-banner .text-box {
   position: absolute;
   top: 65%;
@@ -81,10 +94,7 @@ body, html, .ox {
   font-size: 28px;
   color: #a9a9a9;
 }.ox-messageBox .message-box {
-  width: 1000px;
-  position: absolute;
-  left: 0;
-  right: 0;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -110,6 +120,42 @@ body, html, .ox {
   line-height: 25px;
   color: rgba(68, 68, 68, 1.00);
   overflow: hidden;
+}
+
+.ox-messageBox .left-item {
+  background-color: #fff5e4;
+  color: #d93a4b;
+  width: 100px;
+  text-align: center;
+  line-height: 30px;
+  margin: 10px 5px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: width 0.5s;
+}
+
+.ox-messageBox .left-box,
+.ox-messageBox .right-box {
+  float: left;
+}
+
+.ox-messageBox .right-box {
+  width: calc(100% - 150px);
+  padding: 10px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 130px;
+  color: #444444;
+}
+
+.ox-messageBox .active {
+  background-color: #d83649;
+  color: white;
+  width: 120px;
 }.ox-swiper .swiper-slide {
   height: 600px;
   width: 400px;
@@ -135,7 +181,8 @@ body, html, .ox {
 }
 
 .ox-swiper .swiper-container {
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   height: 600px;
   margin: 30px auto;
   position: relative;
@@ -170,13 +217,18 @@ body, html, .ox {
 
 .ox-swiper .swiper-slide-active + .swiper-slide .blinker {
   display: none;
+}
+
+.ox-swiper .min .swiper-slide .slide-text {
+  line-height: 25px;
+  font-size: 12px;
 }.ox-footer .footer-box {
   height: 220px;
   background-color: #ebf4ff;
 }
 
 .ox-footer .content {
-  width: 1000px;
+  max-width: 1000px;
   height: 219px;
   position: absolute;
   left: 0;
@@ -215,7 +267,7 @@ body, html, .ox {
 }
 
 .ox-footer .qr-box .text {
-  color: rgba(76, 76, 76, 1.00);
+  color: #4c4c4c;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -228,7 +280,7 @@ body, html, .ox {
 }
 
 .ox-copyright .copyright-box .copyright {
-  width: 500px;
+  max-width: 500px;
   height: 100px;
   line-height: 20px;
   text-align: center;
@@ -255,4 +307,9 @@ body, html, .ox {
 
 .ox-home .other {
   background-image: url('../resource/other.png');
+}
+
+.ox-home .min .title {
+  width: 100%;
+  background-size: auto 60%;
 }

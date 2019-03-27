@@ -23,6 +23,12 @@ module.exports = {
   // 使用到的外部脚本清单
   scriptList: [
     {
+      name: "main",
+      src: "./src/main.js",
+      // 是否使用babel处理
+      babel: true
+    },
+    {
       name: "tagcanvas",
       src: "./src/script/tagcanvas.min.js",
       // 是否使用babel处理

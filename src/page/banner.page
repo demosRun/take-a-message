@@ -8,7 +8,15 @@
   module.exports = {
     created: () => {
       const screen = ozzx.tool.getScreenInfo()
-      $dom('bannerBox').style.height = screen.clientWidth * 0.459 + 'px'
+      console.log(screen.ratio)
+      // 判断横屏还是竖屏
+      if (screen.ratio > 1) {
+        $dom('bannerBox').style.height = screen.clientWidth * 0.459 + 'px'
+      } else {
+        $dom('bannerBox').classList.add('min')
+        console.log(screen.clientWidth * 1.05)
+        $dom('bannerBox').style.height = screen.clientWidth * 1.05 + 30 + 'px'
+      }
     }
   }
 </script>
@@ -20,6 +28,17 @@
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
+}
+.min {
+  background-position-y: 30px;
+  background-image: url('@&h5-banana.png&');
+}
+.min .text-box {
+  font-size: 12px;
+  line-height: 20px;
+  width: 76%;
+  left: 16%;
+  font-weight: bold;
 }
 .text-box {
   position: absolute;

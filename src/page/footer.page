@@ -3,15 +3,15 @@
     <div class="content">
       <div class="logo content-item"></div>
       <div class="qr-box content-item">
-        <div class="qr-box-item">
+        <div class="qr-box-item left">
           <img src="@&qr.png&"/>
           <div class="text">微信公众号</div>
         </div>
-        <div class="qr-box-item">
+        <div class="qr-box-item middle">
           <img src="@&qr.png&"/>
           <div class="text">微信小程序</div>
         </div>
-        <div class="qr-box-item">
+        <div class="qr-box-item right">
           <img src="@&qr.png&"/>
           <div class="text">客户端下载</div>
         </div>
@@ -25,19 +25,17 @@
 <script>
   module.exports = {
     created: () => {
-      const screen = ozzx.tool.getScreenInfo()
-      $dom('bannerBox').style.height = screen.clientWidth * 0.459 + 'px'
     }
   }
 </script>
 
-<style>
+<style lang="less">
 .footer-box {
   height: 220px;
   background-color: #ebf4ff;
 }
 .content {
-  width: 1000px;
+  max-width: 1000px;
   height: 219px;
   position: absolute;
   left: 0;
@@ -76,4 +74,5 @@
   line-height: 20px;
   font-size: 14px;
 }
+
 </style>

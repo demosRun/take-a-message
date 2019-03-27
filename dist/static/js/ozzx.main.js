@@ -195,16 +195,36 @@ window.ozzx = {
   script: {
     "home": {
       "data": {},
-      "created": function created() {},
+      "created": function created() {
+        var screen = ozzx.tool.getScreenInfo();
+
+        if (screen.ratio < 1) {
+          $dom('mainBox').classList.add('min');
+        }
+      },
       "template": {
         "banner": {
           "created": function created() {
             var screen = ozzx.tool.getScreenInfo();
-            $dom('bannerBox').style.height = screen.clientWidth * 0.459 + 'px';
+            console.log(screen.ratio); // 判断横屏还是竖屏
+
+            if (screen.ratio > 1) {
+              $dom('bannerBox').style.height = screen.clientWidth * 0.459 + 'px';
+            } else {
+              $dom('bannerBox').classList.add('min');
+              console.log(screen.clientWidth * 1.05);
+              $dom('bannerBox').style.height = screen.clientWidth * 1.05 + 30 + 'px';
+            }
           }
         },
         "tagCloud": {
           "created": function created() {
+            var screenWidth = ozzx.tool.getScreenInfo().clientWidth; // 最大宽度800
+
+            if (screenWidth > 1000) screenWidth = 800;
+            document.getElementById('myCanvas').width = screenWidth;
+            document.getElementById('myCanvas').height = screenWidth * 0.6;
+            document.getElementById('myCanvasContainer').style.height = screenWidth * 0.6 + 'px';
             TagCanvas.Start('myCanvas', 'tags', {
               weight: true,
               fadeIn: 1000,
@@ -215,44 +235,55 @@ window.ozzx = {
               textHeight: 20,
               maxSpeed: 0.05,
               wheelZoom: false,
-              stretchX: 1.6,
+              stretchX: 1.8,
               dragControl: true
             });
           }
         },
         "messageBox": {
-          "data": {
-            "messageList": [{
-              "titel": "创新创业",
-              "data": "“能否为大学生开辟创业创新绿色通道”“这里急需创业创新人才培育”“农民工返乡创业资金有限怎么办”……不少农民工、大中专毕业生、科技人员等身份的网友留言，就创业中遇到的问题，写下了看法和建议。"
-            }, {
-              "titel": "精准扶贫",
-              "data": "2019年是打赢脱贫攻坚战极为关键的一年。围绕攻坚脱贫，网友们关心教育、产业与生态扶贫，关注搬迁安置、就业扶持与提高收入等，期待加大攻坚力度，让贫困人口早日摆脱贫困。"
-            }, {
-              "titel": "教育保障",
-              "data": "“多办公立幼儿园”“解决农村孩子上学远、教学质量不高的问题”“将减负进行到底”“希望提高民办教师待遇”……基础教育、保障教师待遇成为网友在两会期间关注的焦点。"
-            }, {
-              "titel": "城市治理",
-              "data": "把家乡建设成宜居宜业新城市，是很多网友的期盼。围绕交通出行是否安全顺畅、市容市貌是否干净整洁、经济发展是否绿色可持续等话题，网友们给出了许多建议和期待，如“彻底解决电动车治理的老大难问题”“盼智能交通系统提供便利化出行方式”“期待啃下污染防治硬骨头”等。"
-            }, {
-              "titel": "创新创业",
-              "data": "“能否为大学生开辟创业创新绿色通道”“这里急需创业创新人才培育”“农民工返乡创业资金有限怎么办”……不少农民工、大中专毕业生、科技人员等身份的网友留言，就创业中遇到的问题，写下了看法和建议。"
-            }, {
-              "titel": "精准扶贫",
-              "data": "2019年是打赢脱贫攻坚战极为关键的一年。围绕攻坚脱贫，网友们关心教育、产业与生态扶贫，关注搬迁安置、就业扶持与提高收入等，期待加大攻坚力度，让贫困人口早日摆脱贫困。"
-            }, {
-              "titel": "教育保障",
-              "data": "“多办公立幼儿园”“解决农村孩子上学远、教学质量不高的问题”“将减负进行到底”“希望提高民办教师待遇”……基础教育、保障教师待遇成为网友在两会期间关注的焦点。"
-            }, {
-              "titel": "城市治理",
-              "data": "把家乡建设成宜居宜业新城市，是很多网友的期盼。围绕交通出行是否安全顺畅、市容市貌是否干净整洁、经济发展是否绿色可持续等话题，网友们给出了许多建议和期待，如“彻底解决电动车治理的老大难问题”“盼智能交通系统提供便利化出行方式”“期待啃下污染防治硬骨头”等。"
-            }, {
-              "titel": "创新创业",
-              "data": "“能否为大学生开辟创业创新绿色通道”“这里急需创业创新人才培育”“农民工返乡创业资金有限怎么办”……不少农民工、大中专毕业生、科技人员等身份的网友留言，就创业中遇到的问题，写下了看法和建议。"
-            }, {
-              "titel": "精准扶贫",
-              "data": "2019年是打赢脱贫攻坚战极为关键的一年。围绕攻坚脱贫，网友们关心教育、产业与生态扶贫，关注搬迁安置、就业扶持与提高收入等，期待加大攻坚力度，让贫困人口早日摆脱贫困。"
-            }]
+          "created": function created() {
+            var html = ''; // 针对手机和PC分别进行处理
+
+            var screen = ozzx.tool.getScreenInfo();
+
+            if (screen.ratio > 1) {
+              messageList.forEach(function (element) {
+                html += "\n            <div class=\"message-item\"><div class=\"message-box-title\">".concat(element.name, "</div><div class=\"message-box-text\">").concat(element.data, "</div></div>\n          ");
+              });
+              html += '<div class="clear"></div>';
+            } else {
+              messageList.forEach(function (element) {
+                html += "\n            <div class=\"left-item\">".concat(element.name, "</div>\n          ");
+              });
+              html += "\n          </div>\n          <div class=\"right-box\" id=\"messageBoxRightBox\">".concat(messageList[0].data, "</div>\n          <div class=\"clear\"></div>\n        ");
+              var itemList = document.getElementsByClassName('left-item');
+              itemList[0].classList.add('active');
+              setTimeout(function () {
+                var _loop = function _loop(ind) {
+                  var element = itemList[ind];
+
+                  element.onclick = function () {
+                    for (var _ind = 0; _ind < itemList.length; _ind++) {
+                      var _element = itemList[_ind];
+
+                      _element.classList.remove('active');
+                    }
+
+                    this.classList.add('active');
+                    document.getElementById('messageBoxRightBox').innerHTML = messageList[ind].data;
+                  };
+                };
+
+                for (var ind = 0; ind < itemList.length; ind++) {
+                  _loop(ind);
+                }
+              }, 1000);
+            }
+
+            $dom('messageBox').innerHTML = html;
+          },
+          "activeItem": function activeItem() {
+            console.log(this);
           }
         },
         "swiper": {
@@ -260,21 +291,43 @@ window.ozzx = {
             "mySwiper": null
           },
           "created": function created() {
-            this.data.mySwiper = new Swiper('.swiper-container', {
-              autoplay: 3000,
-              loop: true,
-              // 禁用鼠标点击
-              simulateTouch: false,
-              slidesPerView: 3,
-              //其他设置
-              tdFlow: {
-                rotate: 10,
-                stretch: 0,
-                depth: 400,
-                modifier: 1,
-                shadows: true
-              }
-            });
+            var screen = ozzx.tool.getScreenInfo();
+
+            if (screen.ratio < 1) {
+              $dom('swiperContainer').style.height = screen.clientWidth * 0.6 + 'px';
+              $dom('swiperContainer').classList.add('min');
+              this.data.mySwiper = new Swiper('.swiper-container', {
+                autoplay: 3000,
+                loop: true,
+                // 禁用鼠标点击
+                simulateTouch: false,
+                slidesPerView: 3,
+                //其他设置
+                tdFlow: {
+                  rotate: 10,
+                  stretch: 0,
+                  depth: 200,
+                  modifier: 1.4,
+                  shadows: true
+                }
+              });
+            } else {
+              this.data.mySwiper = new Swiper('.swiper-container', {
+                autoplay: 3000,
+                loop: true,
+                // 禁用鼠标点击
+                simulateTouch: false,
+                slidesPerView: 3,
+                //其他设置
+                tdFlow: {
+                  rotate: 10,
+                  stretch: 0,
+                  depth: 400,
+                  modifier: 1,
+                  shadows: true
+                }
+              });
+            }
           },
           "last": function last() {
             this.data.mySwiper.swipePrev();
@@ -284,10 +337,7 @@ window.ozzx = {
           }
         },
         "footer": {
-          "created": function created() {
-            var screen = ozzx.tool.getScreenInfo();
-            $dom('bannerBox').style.height = screen.clientWidth * 0.459 + 'px';
-          }
+          "created": function created() {}
         }
       }
     },

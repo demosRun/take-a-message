@@ -33,6 +33,12 @@
 <script>
   module.exports = {
     created: () => {
+      let screenWidth = ozzx.tool.getScreenInfo().clientWidth
+      // 最大宽度800
+      if (screenWidth > 1000) screenWidth = 800
+      document.getElementById('myCanvas').width = screenWidth 
+      document.getElementById('myCanvas').height = screenWidth * 0.6
+      document.getElementById('myCanvasContainer').style.height = screenWidth * 0.6 + 'px'
       TagCanvas.Start('myCanvas','tags',{
         weight: true,
         fadeIn: 1000,
@@ -43,7 +49,7 @@
         textHeight: 20,
         maxSpeed: 0.05,
         wheelZoom: false,
-        stretchX: 1.6,
+        stretchX: 1.8,
         dragControl: true
       })
     }
