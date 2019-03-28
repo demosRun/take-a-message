@@ -5888,3 +5888,1053 @@
 [2019-03-28T14:01:30.520] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
 [2019-03-28T14:01:30.520] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\1.jpg
 [2019-03-28T14:01:30.521] [INFO] main.js - Compile successfully, Use time: 638 msec!
+[2019-03-28T14:06:43.605] [INFO] main.js - file change: D:\work\take a message\src\page\swiper.page
+[2019-03-28T14:06:43.605] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-28T14:06:43.605] [INFO] main.js - 程序运行目录: D:\work\take a message
+[2019-03-28T14:06:43.605] [INFO] main.js - 刷新模式,变化目录: D:\work\take a message\src\page\swiper.page
+[2019-03-28T14:06:43.605] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-28T14:06:43.606] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-28T14:06:43.606] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}]
+[2019-03-28T14:06:43.612] [DEBUG] index.js - 处理模板: ./src/page/topBar.page
+[2019-03-28T14:06:43.617] [DEBUG] index.js - 处理模板: ./src/page/banner.page
+[2019-03-28T14:06:43.621] [DEBUG] index.js - 处理模板: ./src/page/tagCloud.page
+[2019-03-28T14:06:43.643] [DEBUG] index.js - 处理模板: ./src/page/messageBox.page
+[2019-03-28T14:06:43.647] [DEBUG] index.js - 处理模板: ./src/page/swiper.page
+[2019-03-28T14:06:43.666] [DEBUG] index.js - 处理模板: ./src/page/footer.page
+[2019-03-28T14:06:43.678] [DEBUG] index.js - 处理模板: http://cunchu.site/ozzx/template/copyright.page
+[2019-03-28T14:06:43.975] [DEBUG] index.js - 处理模板: ./src/page/showImageBox.page
+[2019-03-28T14:06:43.991] [DEBUG] index.js - 页面中使用到的动画列表: [object Set]
+[2019-03-28T14:06:43.992] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\banana.png
+[2019-03-28T14:06:43.992] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\h5-banana.png
+[2019-03-28T14:06:43.992] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\difang-logo.png
+[2019-03-28T14:06:43.992] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\care.png
+[2019-03-28T14:06:43.992] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\discuss.png
+[2019-03-28T14:06:43.992] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\other.png
+[2019-03-28T14:06:43.996] [INFO] main.js - 写文件: D:\work\take a message\dist\static\css\ozzx.animation.css
+[2019-03-28T14:06:43.996] [DEBUG] main.js - 页面中不包含切换动画!
+[2019-03-28T14:06:44.087] [DEBUG] main.js - 处理引用脚本: [{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}]
+[2019-03-28T14:06:44.087] [DEBUG] main.js - 外部脚本数量: 4
+[2019-03-28T14:06:44.087] [DEBUG] main.js - 处理脚本: main
+[2019-03-28T14:06:44.087] [DEBUG] main.js - 使用bable处理脚本!
+[2019-03-28T14:06:44.087] [DEBUG] main.js - 处理脚本: tagcanvas
+[2019-03-28T14:06:44.087] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:06:44.087] [DEBUG] main.js - 处理脚本: swiper2
+[2019-03-28T14:06:44.087] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:06:44.087] [DEBUG] main.js - 处理脚本: 3dflow
+[2019-03-28T14:06:44.087] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:06:44.087] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T14:06:44.087] [DEBUG] main.js - 还有没有经过处理的资源!
+[2019-03-28T14:06:44.087] [DEBUG] main.js - <!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>页面</title>
+    <!-- 页面的元信息 -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!-- css-output -->
+    <link rel="stylesheet" href="./static/css/ozzx.animation.css">
+  </head>
+  <body>
+    <!-- 页面区域 -->
+    <div class="ox-home ox" id="ox-home"><div class="main-box" @name="mainBox">
+    <div class="ox-titleBar"><div class="title-bar">
+    <div class="content">
+      <img class="logo content-item" src="@&amp;logo.png&amp;">
+      <div class="link content-item">人民网首页</div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+    <div class="ox-banner"><div class="banner-box" @name="bannerBox">
+    <div class="text-box">编者按：在人民网推出的“2019两会来了 我托书记省长捎句话”活动中，各地网友以25万条留言，说出了他们对城市治理、百姓住房、教育保障等民生问题的看法与期待，一起来看看吧！</div>
+  </div>
+</div>
+    <div class="title care"></div>
+    <div class="ox-tagCloud"><div id="myCanvasContainer" class="tag-cloud-box">
+    <canvas width="1000" height="400" id="myCanvas">
+      <p>Anything in here will be replaced on browsers that support the canvas element</p>
+    </canvas>
+  </div>
+  <div id="tags" class="tag-box">
+    <ul>
+      <li class="rank-3"><a href="/#">医疗服务</a></li>
+      <li class="rank-1"><a href="/#">农村改革</a></li>
+      <li class="rank-3"><a href="/#">城镇住房</a></li>
+      <li class="rank-2"><a href="/#">污染防治</a></li>
+      <li class="rank-4"><a href="/#">百姓收入</a></li>
+      <li class="rank-4"><a href="/#">营商环境</a></li>
+      <li class="rank-2"><a href="/#">城市交通</a></li>
+      <li class="rank-2"><a href="/#">新型城镇化</a></li>
+      <li class="rank-3"><a href="/#">区域协调</a></li>
+      <li class="rank-1"><a href="/#">政务服务</a></li>
+      <li class="rank-4"><a href="/#">创新创业</a></li>
+      <li class="rank-3"><a href="/#">教育保障</a></li>
+      <li class="rank-4"><a href="/#">精准扶贫</a></li>
+      <li class="rank-2"><a href="/#">乡村振兴</a></li>
+      <li class="rank-1"><a href="/#">文化传承</a></li>
+      <li class="rank-2"><a href="/#">绿色发展</a></li>
+      <li class="rank-3"><a href="/#">城市发展</a></li>
+      <li class="rank-4"><a href="/#">休闲旅游</a></li>
+      <li class="rank-2"><a href="/#">财政支出</a></li>
+      <li class="rank-1"><a href="/#">网络环境</a></li>
+    </ul>
+  </div>
+</div>
+    <div class="title discuss"></div>
+    <div class="ox-messageBox"><div class="message-box" @name="messageBox">
+  </div>
+</div>
+    <div class="title other"></div>
+    <div class="ox-swiper"><div class="swiper-container" @name="swiperContainer">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;1.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;2.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;3.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;4.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;5.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;6.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;7.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;8.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+    </div>
+    <img class="last swiper-button" src="@&amp;left_icon.png&amp;" @click="last" template="swiper">
+    <img class="next swiper-button" src="@&amp;right_icon.png&amp;" @click="next" template="swiper">
+  </div>
+</div>
+    <div class="ox-footer"><footer class="footer-box">
+    <div class="content">
+      <div class="logo content-item"></div>
+      <div class="qr-box content-item">
+        <div class="qr-box-item left">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信公众号</div>
+        </div>
+        <div class="qr-box-item middle">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信小程序</div>
+        </div>
+        <div class="qr-box-item right">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">客户端下载</div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </footer>
+</div>
+    <div class="ox-copyright"><div class="copyright-box">
+    <div class="copyright">
+      <p>人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用</p>
+      <p>Copyright © 1997-2018 by www.people.com.cn. all rights reserved</p>
+    </div>
+  </div>
+</div>
+    <div class="ox-showBox"><div class="show-box" id="showBox">
+    <img src="@&amp;1.jpg&amp;" @click="close" id="showBoxImage" template="showBox">
+  </div>
+</div>
+  </div>
+</div>
+    <!-- 页面脚本 -->
+    <script src="./static/js/autoReload.js" type="text/javascript"></script>
+    <script src="./static/js/main.js" type="text/javascript" ></script>
+    <script src="./static/js/tagcanvas.js" type="text/javascript" ></script>
+    <script src="./static/js/swiper2.js" type="text/javascript" ></script>
+    <script src="./static/js/3dflow.js" type="text/javascript" ></script>
+    <!-- 主要script文件 -->
+    <script src="./static/js/ozzx.main.js" type="text/javascript"></script>
+  </body>
+</html>
+[2019-03-28T14:06:44.207] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T14:06:44.207] [DEBUG] main.js - 准备输出html!
+[2019-03-28T14:06:44.207] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\logo.png
+[2019-03-28T14:06:44.207] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\1.jpg
+[2019-03-28T14:06:44.207] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\2.jpg
+[2019-03-28T14:06:44.207] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\3.jpg
+[2019-03-28T14:06:44.207] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\4.png
+[2019-03-28T14:06:44.208] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\5.jpg
+[2019-03-28T14:06:44.208] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\6.png
+[2019-03-28T14:06:44.208] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\7.jpg
+[2019-03-28T14:06:44.208] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\8.jpg
+[2019-03-28T14:06:44.208] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\left_icon.png
+[2019-03-28T14:06:44.208] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\right_icon.png
+[2019-03-28T14:06:44.208] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:06:44.208] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:06:44.208] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:06:44.208] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\1.jpg
+[2019-03-28T14:06:44.209] [INFO] main.js - Compile successfully, Use time: 604 msec!
+[2019-03-28T14:09:10.772] [INFO] main.js - file change: D:\work\take a message\src\page\swiper.page
+[2019-03-28T14:09:10.772] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-28T14:09:10.772] [INFO] main.js - 程序运行目录: D:\work\take a message
+[2019-03-28T14:09:10.772] [INFO] main.js - 刷新模式,变化目录: D:\work\take a message\src\page\swiper.page
+[2019-03-28T14:09:10.772] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-28T14:09:10.773] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-28T14:09:10.773] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}]
+[2019-03-28T14:09:10.777] [DEBUG] index.js - 处理模板: ./src/page/topBar.page
+[2019-03-28T14:09:10.780] [DEBUG] index.js - 处理模板: ./src/page/banner.page
+[2019-03-28T14:09:10.784] [DEBUG] index.js - 处理模板: ./src/page/tagCloud.page
+[2019-03-28T14:09:10.797] [DEBUG] index.js - 处理模板: ./src/page/messageBox.page
+[2019-03-28T14:09:10.800] [DEBUG] index.js - 处理模板: ./src/page/swiper.page
+[2019-03-28T14:09:10.821] [DEBUG] index.js - 处理模板: ./src/page/footer.page
+[2019-03-28T14:09:10.828] [DEBUG] index.js - 处理模板: http://cunchu.site/ozzx/template/copyright.page
+[2019-03-28T14:09:11.158] [DEBUG] index.js - 处理模板: ./src/page/showImageBox.page
+[2019-03-28T14:09:11.178] [DEBUG] index.js - 页面中使用到的动画列表: [object Set]
+[2019-03-28T14:09:11.179] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\banana.png
+[2019-03-28T14:09:11.179] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\h5-banana.png
+[2019-03-28T14:09:11.179] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\difang-logo.png
+[2019-03-28T14:09:11.179] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\care.png
+[2019-03-28T14:09:11.179] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\discuss.png
+[2019-03-28T14:09:11.179] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\other.png
+[2019-03-28T14:09:11.183] [INFO] main.js - 写文件: D:\work\take a message\dist\static\css\ozzx.animation.css
+[2019-03-28T14:09:11.183] [DEBUG] main.js - 页面中不包含切换动画!
+[2019-03-28T14:09:11.268] [DEBUG] main.js - 处理引用脚本: [{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}]
+[2019-03-28T14:09:11.268] [DEBUG] main.js - 外部脚本数量: 4
+[2019-03-28T14:09:11.268] [DEBUG] main.js - 处理脚本: main
+[2019-03-28T14:09:11.268] [DEBUG] main.js - 使用bable处理脚本!
+[2019-03-28T14:09:11.268] [DEBUG] main.js - 处理脚本: tagcanvas
+[2019-03-28T14:09:11.268] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:09:11.268] [DEBUG] main.js - 处理脚本: swiper2
+[2019-03-28T14:09:11.268] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:09:11.268] [DEBUG] main.js - 处理脚本: 3dflow
+[2019-03-28T14:09:11.268] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:09:11.268] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T14:09:11.268] [DEBUG] main.js - 还有没有经过处理的资源!
+[2019-03-28T14:09:11.268] [DEBUG] main.js - <!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>页面</title>
+    <!-- 页面的元信息 -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!-- css-output -->
+    <link rel="stylesheet" href="./static/css/ozzx.animation.css">
+  </head>
+  <body>
+    <!-- 页面区域 -->
+    <div class="ox-home ox" id="ox-home"><div class="main-box" @name="mainBox">
+    <div class="ox-titleBar"><div class="title-bar">
+    <div class="content">
+      <img class="logo content-item" src="@&amp;logo.png&amp;">
+      <div class="link content-item">人民网首页</div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+    <div class="ox-banner"><div class="banner-box" @name="bannerBox">
+    <div class="text-box">编者按：在人民网推出的“2019两会来了 我托书记省长捎句话”活动中，各地网友以25万条留言，说出了他们对城市治理、百姓住房、教育保障等民生问题的看法与期待，一起来看看吧！</div>
+  </div>
+</div>
+    <div class="title care"></div>
+    <div class="ox-tagCloud"><div id="myCanvasContainer" class="tag-cloud-box">
+    <canvas width="1000" height="400" id="myCanvas">
+      <p>Anything in here will be replaced on browsers that support the canvas element</p>
+    </canvas>
+  </div>
+  <div id="tags" class="tag-box">
+    <ul>
+      <li class="rank-3"><a href="/#">医疗服务</a></li>
+      <li class="rank-1"><a href="/#">农村改革</a></li>
+      <li class="rank-3"><a href="/#">城镇住房</a></li>
+      <li class="rank-2"><a href="/#">污染防治</a></li>
+      <li class="rank-4"><a href="/#">百姓收入</a></li>
+      <li class="rank-4"><a href="/#">营商环境</a></li>
+      <li class="rank-2"><a href="/#">城市交通</a></li>
+      <li class="rank-2"><a href="/#">新型城镇化</a></li>
+      <li class="rank-3"><a href="/#">区域协调</a></li>
+      <li class="rank-1"><a href="/#">政务服务</a></li>
+      <li class="rank-4"><a href="/#">创新创业</a></li>
+      <li class="rank-3"><a href="/#">教育保障</a></li>
+      <li class="rank-4"><a href="/#">精准扶贫</a></li>
+      <li class="rank-2"><a href="/#">乡村振兴</a></li>
+      <li class="rank-1"><a href="/#">文化传承</a></li>
+      <li class="rank-2"><a href="/#">绿色发展</a></li>
+      <li class="rank-3"><a href="/#">城市发展</a></li>
+      <li class="rank-4"><a href="/#">休闲旅游</a></li>
+      <li class="rank-2"><a href="/#">财政支出</a></li>
+      <li class="rank-1"><a href="/#">网络环境</a></li>
+    </ul>
+  </div>
+</div>
+    <div class="title discuss"></div>
+    <div class="ox-messageBox"><div class="message-box" @name="messageBox">
+  </div>
+</div>
+    <div class="title other"></div>
+    <div class="ox-swiper"><div class="swiper-container" @name="swiperContainer">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;1.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;2.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;3.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;4.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;5.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;6.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;7.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;8.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+    </div>
+    <img class="last swiper-button" src="@&amp;left_icon.png&amp;" @click="last" template="swiper">
+    <img class="next swiper-button" src="@&amp;right_icon.png&amp;" @click="next" template="swiper">
+  </div>
+</div>
+    <div class="ox-footer"><footer class="footer-box">
+    <div class="content">
+      <div class="logo content-item"></div>
+      <div class="qr-box content-item">
+        <div class="qr-box-item left">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信公众号</div>
+        </div>
+        <div class="qr-box-item middle">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信小程序</div>
+        </div>
+        <div class="qr-box-item right">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">客户端下载</div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </footer>
+</div>
+    <div class="ox-copyright"><div class="copyright-box">
+    <div class="copyright">
+      <p>人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用</p>
+      <p>Copyright © 1997-2018 by www.people.com.cn. all rights reserved</p>
+    </div>
+  </div>
+</div>
+    <div class="ox-showBox"><div class="show-box" id="showBox">
+    <img src="@&amp;1.jpg&amp;" @click="close" id="showBoxImage" template="showBox">
+  </div>
+</div>
+  </div>
+</div>
+    <!-- 页面脚本 -->
+    <script src="./static/js/autoReload.js" type="text/javascript"></script>
+    <script src="./static/js/main.js" type="text/javascript" ></script>
+    <script src="./static/js/tagcanvas.js" type="text/javascript" ></script>
+    <script src="./static/js/swiper2.js" type="text/javascript" ></script>
+    <script src="./static/js/3dflow.js" type="text/javascript" ></script>
+    <!-- 主要script文件 -->
+    <script src="./static/js/ozzx.main.js" type="text/javascript"></script>
+  </body>
+</html>
+[2019-03-28T14:09:11.388] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T14:09:11.388] [DEBUG] main.js - 准备输出html!
+[2019-03-28T14:09:11.388] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\logo.png
+[2019-03-28T14:09:11.388] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\1.jpg
+[2019-03-28T14:09:11.389] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\2.jpg
+[2019-03-28T14:09:11.389] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\3.jpg
+[2019-03-28T14:09:11.389] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\4.png
+[2019-03-28T14:09:11.389] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\5.jpg
+[2019-03-28T14:09:11.389] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\6.png
+[2019-03-28T14:09:11.389] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\7.jpg
+[2019-03-28T14:09:11.389] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\8.jpg
+[2019-03-28T14:09:11.389] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\left_icon.png
+[2019-03-28T14:09:11.389] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\right_icon.png
+[2019-03-28T14:09:11.389] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:09:11.389] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:09:11.389] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:09:11.389] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\1.jpg
+[2019-03-28T14:09:11.390] [INFO] main.js - Compile successfully, Use time: 618 msec!
+[2019-03-28T14:09:36.067] [INFO] main.js - file change: D:\work\take a message\src\page\swiper.page
+[2019-03-28T14:09:36.067] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-28T14:09:36.067] [INFO] main.js - 程序运行目录: D:\work\take a message
+[2019-03-28T14:09:36.067] [INFO] main.js - 刷新模式,变化目录: D:\work\take a message\src\page\swiper.page
+[2019-03-28T14:09:36.067] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-28T14:09:36.067] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-28T14:09:36.067] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}]
+[2019-03-28T14:09:36.077] [DEBUG] index.js - 处理模板: ./src/page/topBar.page
+[2019-03-28T14:09:36.082] [DEBUG] index.js - 处理模板: ./src/page/banner.page
+[2019-03-28T14:09:36.085] [DEBUG] index.js - 处理模板: ./src/page/tagCloud.page
+[2019-03-28T14:09:36.102] [DEBUG] index.js - 处理模板: ./src/page/messageBox.page
+[2019-03-28T14:09:36.105] [DEBUG] index.js - 处理模板: ./src/page/swiper.page
+[2019-03-28T14:09:36.122] [DEBUG] index.js - 处理模板: ./src/page/footer.page
+[2019-03-28T14:09:36.128] [DEBUG] index.js - 处理模板: http://cunchu.site/ozzx/template/copyright.page
+[2019-03-28T14:09:36.375] [DEBUG] index.js - 处理模板: ./src/page/showImageBox.page
+[2019-03-28T14:09:36.387] [DEBUG] index.js - 页面中使用到的动画列表: [object Set]
+[2019-03-28T14:09:36.387] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\banana.png
+[2019-03-28T14:09:36.387] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\h5-banana.png
+[2019-03-28T14:09:36.387] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\difang-logo.png
+[2019-03-28T14:09:36.387] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\care.png
+[2019-03-28T14:09:36.387] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\discuss.png
+[2019-03-28T14:09:36.387] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\other.png
+[2019-03-28T14:09:36.391] [INFO] main.js - 写文件: D:\work\take a message\dist\static\css\ozzx.animation.css
+[2019-03-28T14:09:36.392] [DEBUG] main.js - 页面中不包含切换动画!
+[2019-03-28T14:09:36.482] [DEBUG] main.js - 处理引用脚本: [{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}]
+[2019-03-28T14:09:36.482] [DEBUG] main.js - 外部脚本数量: 4
+[2019-03-28T14:09:36.482] [DEBUG] main.js - 处理脚本: main
+[2019-03-28T14:09:36.482] [DEBUG] main.js - 使用bable处理脚本!
+[2019-03-28T14:09:36.482] [DEBUG] main.js - 处理脚本: tagcanvas
+[2019-03-28T14:09:36.482] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:09:36.482] [DEBUG] main.js - 处理脚本: swiper2
+[2019-03-28T14:09:36.482] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:09:36.482] [DEBUG] main.js - 处理脚本: 3dflow
+[2019-03-28T14:09:36.482] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:09:36.482] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T14:09:36.482] [DEBUG] main.js - 还有没有经过处理的资源!
+[2019-03-28T14:09:36.482] [DEBUG] main.js - <!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>页面</title>
+    <!-- 页面的元信息 -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!-- css-output -->
+    <link rel="stylesheet" href="./static/css/ozzx.animation.css">
+  </head>
+  <body>
+    <!-- 页面区域 -->
+    <div class="ox-home ox" id="ox-home"><div class="main-box" @name="mainBox">
+    <div class="ox-titleBar"><div class="title-bar">
+    <div class="content">
+      <img class="logo content-item" src="@&amp;logo.png&amp;">
+      <div class="link content-item">人民网首页</div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+    <div class="ox-banner"><div class="banner-box" @name="bannerBox">
+    <div class="text-box">编者按：在人民网推出的“2019两会来了 我托书记省长捎句话”活动中，各地网友以25万条留言，说出了他们对城市治理、百姓住房、教育保障等民生问题的看法与期待，一起来看看吧！</div>
+  </div>
+</div>
+    <div class="title care"></div>
+    <div class="ox-tagCloud"><div id="myCanvasContainer" class="tag-cloud-box">
+    <canvas width="1000" height="400" id="myCanvas">
+      <p>Anything in here will be replaced on browsers that support the canvas element</p>
+    </canvas>
+  </div>
+  <div id="tags" class="tag-box">
+    <ul>
+      <li class="rank-3"><a href="/#">医疗服务</a></li>
+      <li class="rank-1"><a href="/#">农村改革</a></li>
+      <li class="rank-3"><a href="/#">城镇住房</a></li>
+      <li class="rank-2"><a href="/#">污染防治</a></li>
+      <li class="rank-4"><a href="/#">百姓收入</a></li>
+      <li class="rank-4"><a href="/#">营商环境</a></li>
+      <li class="rank-2"><a href="/#">城市交通</a></li>
+      <li class="rank-2"><a href="/#">新型城镇化</a></li>
+      <li class="rank-3"><a href="/#">区域协调</a></li>
+      <li class="rank-1"><a href="/#">政务服务</a></li>
+      <li class="rank-4"><a href="/#">创新创业</a></li>
+      <li class="rank-3"><a href="/#">教育保障</a></li>
+      <li class="rank-4"><a href="/#">精准扶贫</a></li>
+      <li class="rank-2"><a href="/#">乡村振兴</a></li>
+      <li class="rank-1"><a href="/#">文化传承</a></li>
+      <li class="rank-2"><a href="/#">绿色发展</a></li>
+      <li class="rank-3"><a href="/#">城市发展</a></li>
+      <li class="rank-4"><a href="/#">休闲旅游</a></li>
+      <li class="rank-2"><a href="/#">财政支出</a></li>
+      <li class="rank-1"><a href="/#">网络环境</a></li>
+    </ul>
+  </div>
+</div>
+    <div class="title discuss"></div>
+    <div class="ox-messageBox"><div class="message-box" @name="messageBox">
+  </div>
+</div>
+    <div class="title other"></div>
+    <div class="ox-swiper"><div class="swiper-container" @name="swiperContainer">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;1.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;2.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;3.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;4.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;5.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;6.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;7.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;8.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+    </div>
+    <img class="last swiper-button" src="@&amp;left_icon.png&amp;" @click="last" template="swiper">
+    <img class="next swiper-button" src="@&amp;right_icon.png&amp;" @click="next" template="swiper">
+  </div>
+</div>
+    <div class="ox-footer"><footer class="footer-box">
+    <div class="content">
+      <div class="logo content-item"></div>
+      <div class="qr-box content-item">
+        <div class="qr-box-item left">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信公众号</div>
+        </div>
+        <div class="qr-box-item middle">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信小程序</div>
+        </div>
+        <div class="qr-box-item right">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">客户端下载</div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </footer>
+</div>
+    <div class="ox-copyright"><div class="copyright-box">
+    <div class="copyright">
+      <p>人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用</p>
+      <p>Copyright © 1997-2018 by www.people.com.cn. all rights reserved</p>
+    </div>
+  </div>
+</div>
+    <div class="ox-showBox"><div class="show-box" id="showBox">
+    <img src="@&amp;1.jpg&amp;" @click="close" id="showBoxImage" template="showBox">
+  </div>
+</div>
+  </div>
+</div>
+    <!-- 页面脚本 -->
+    <script src="./static/js/autoReload.js" type="text/javascript"></script>
+    <script src="./static/js/main.js" type="text/javascript" ></script>
+    <script src="./static/js/tagcanvas.js" type="text/javascript" ></script>
+    <script src="./static/js/swiper2.js" type="text/javascript" ></script>
+    <script src="./static/js/3dflow.js" type="text/javascript" ></script>
+    <!-- 主要script文件 -->
+    <script src="./static/js/ozzx.main.js" type="text/javascript"></script>
+  </body>
+</html>
+[2019-03-28T14:09:36.646] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T14:09:36.646] [DEBUG] main.js - 准备输出html!
+[2019-03-28T14:09:36.646] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\logo.png
+[2019-03-28T14:09:36.646] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\1.jpg
+[2019-03-28T14:09:36.646] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\2.jpg
+[2019-03-28T14:09:36.646] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\3.jpg
+[2019-03-28T14:09:36.646] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\4.png
+[2019-03-28T14:09:36.646] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\5.jpg
+[2019-03-28T14:09:36.646] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\6.png
+[2019-03-28T14:09:36.646] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\7.jpg
+[2019-03-28T14:09:36.646] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\8.jpg
+[2019-03-28T14:09:36.647] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\left_icon.png
+[2019-03-28T14:09:36.647] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\right_icon.png
+[2019-03-28T14:09:36.647] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:09:36.647] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:09:36.647] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:09:36.647] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\1.jpg
+[2019-03-28T14:09:36.647] [INFO] main.js - Compile successfully, Use time: 580 msec!
+[2019-03-28T14:10:03.730] [INFO] main.js - file change: D:\work\take a message\src\page\swiper.page
+[2019-03-28T14:10:03.730] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-28T14:10:03.730] [INFO] main.js - 程序运行目录: D:\work\take a message
+[2019-03-28T14:10:03.731] [INFO] main.js - 刷新模式,变化目录: D:\work\take a message\src\page\swiper.page
+[2019-03-28T14:10:03.731] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-28T14:10:03.731] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-28T14:10:03.731] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}]
+[2019-03-28T14:10:03.735] [DEBUG] index.js - 处理模板: ./src/page/topBar.page
+[2019-03-28T14:10:03.738] [DEBUG] index.js - 处理模板: ./src/page/banner.page
+[2019-03-28T14:10:03.740] [DEBUG] index.js - 处理模板: ./src/page/tagCloud.page
+[2019-03-28T14:10:03.757] [DEBUG] index.js - 处理模板: ./src/page/messageBox.page
+[2019-03-28T14:10:03.762] [DEBUG] index.js - 处理模板: ./src/page/swiper.page
+[2019-03-28T14:10:03.783] [DEBUG] index.js - 处理模板: ./src/page/footer.page
+[2019-03-28T14:10:03.789] [DEBUG] index.js - 处理模板: http://cunchu.site/ozzx/template/copyright.page
+[2019-03-28T14:10:04.098] [DEBUG] index.js - 处理模板: ./src/page/showImageBox.page
+[2019-03-28T14:10:04.115] [DEBUG] index.js - 页面中使用到的动画列表: [object Set]
+[2019-03-28T14:10:04.115] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\banana.png
+[2019-03-28T14:10:04.115] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\h5-banana.png
+[2019-03-28T14:10:04.115] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\difang-logo.png
+[2019-03-28T14:10:04.115] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\care.png
+[2019-03-28T14:10:04.116] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\discuss.png
+[2019-03-28T14:10:04.116] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\other.png
+[2019-03-28T14:10:04.122] [INFO] main.js - 写文件: D:\work\take a message\dist\static\css\ozzx.animation.css
+[2019-03-28T14:10:04.122] [DEBUG] main.js - 页面中不包含切换动画!
+[2019-03-28T14:10:04.238] [DEBUG] main.js - 处理引用脚本: [{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}]
+[2019-03-28T14:10:04.238] [DEBUG] main.js - 外部脚本数量: 4
+[2019-03-28T14:10:04.238] [DEBUG] main.js - 处理脚本: main
+[2019-03-28T14:10:04.238] [DEBUG] main.js - 使用bable处理脚本!
+[2019-03-28T14:10:04.238] [DEBUG] main.js - 处理脚本: tagcanvas
+[2019-03-28T14:10:04.238] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:10:04.238] [DEBUG] main.js - 处理脚本: swiper2
+[2019-03-28T14:10:04.238] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:10:04.238] [DEBUG] main.js - 处理脚本: 3dflow
+[2019-03-28T14:10:04.238] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:10:04.238] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T14:10:04.238] [DEBUG] main.js - 还有没有经过处理的资源!
+[2019-03-28T14:10:04.238] [DEBUG] main.js - <!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>页面</title>
+    <!-- 页面的元信息 -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!-- css-output -->
+    <link rel="stylesheet" href="./static/css/ozzx.animation.css">
+  </head>
+  <body>
+    <!-- 页面区域 -->
+    <div class="ox-home ox" id="ox-home"><div class="main-box" @name="mainBox">
+    <div class="ox-titleBar"><div class="title-bar">
+    <div class="content">
+      <img class="logo content-item" src="@&amp;logo.png&amp;">
+      <div class="link content-item">人民网首页</div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+    <div class="ox-banner"><div class="banner-box" @name="bannerBox">
+    <div class="text-box">编者按：在人民网推出的“2019两会来了 我托书记省长捎句话”活动中，各地网友以25万条留言，说出了他们对城市治理、百姓住房、教育保障等民生问题的看法与期待，一起来看看吧！</div>
+  </div>
+</div>
+    <div class="title care"></div>
+    <div class="ox-tagCloud"><div id="myCanvasContainer" class="tag-cloud-box">
+    <canvas width="1000" height="400" id="myCanvas">
+      <p>Anything in here will be replaced on browsers that support the canvas element</p>
+    </canvas>
+  </div>
+  <div id="tags" class="tag-box">
+    <ul>
+      <li class="rank-3"><a href="/#">医疗服务</a></li>
+      <li class="rank-1"><a href="/#">农村改革</a></li>
+      <li class="rank-3"><a href="/#">城镇住房</a></li>
+      <li class="rank-2"><a href="/#">污染防治</a></li>
+      <li class="rank-4"><a href="/#">百姓收入</a></li>
+      <li class="rank-4"><a href="/#">营商环境</a></li>
+      <li class="rank-2"><a href="/#">城市交通</a></li>
+      <li class="rank-2"><a href="/#">新型城镇化</a></li>
+      <li class="rank-3"><a href="/#">区域协调</a></li>
+      <li class="rank-1"><a href="/#">政务服务</a></li>
+      <li class="rank-4"><a href="/#">创新创业</a></li>
+      <li class="rank-3"><a href="/#">教育保障</a></li>
+      <li class="rank-4"><a href="/#">精准扶贫</a></li>
+      <li class="rank-2"><a href="/#">乡村振兴</a></li>
+      <li class="rank-1"><a href="/#">文化传承</a></li>
+      <li class="rank-2"><a href="/#">绿色发展</a></li>
+      <li class="rank-3"><a href="/#">城市发展</a></li>
+      <li class="rank-4"><a href="/#">休闲旅游</a></li>
+      <li class="rank-2"><a href="/#">财政支出</a></li>
+      <li class="rank-1"><a href="/#">网络环境</a></li>
+    </ul>
+  </div>
+</div>
+    <div class="title discuss"></div>
+    <div class="ox-messageBox"><div class="message-box" @name="messageBox">
+  </div>
+</div>
+    <div class="title other"></div>
+    <div class="ox-swiper"><div class="swiper-container" @name="swiperContainer">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;1.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;2.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;3.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;4.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;5.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;6.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;7.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;8.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+    </div>
+    <img class="last swiper-button" src="@&amp;left_icon.png&amp;" @click="last" template="swiper">
+    <img class="next swiper-button" src="@&amp;right_icon.png&amp;" @click="next" template="swiper">
+  </div>
+</div>
+    <div class="ox-footer"><footer class="footer-box">
+    <div class="content">
+      <div class="logo content-item"></div>
+      <div class="qr-box content-item">
+        <div class="qr-box-item left">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信公众号</div>
+        </div>
+        <div class="qr-box-item middle">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信小程序</div>
+        </div>
+        <div class="qr-box-item right">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">客户端下载</div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </footer>
+</div>
+    <div class="ox-copyright"><div class="copyright-box">
+    <div class="copyright">
+      <p>人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用</p>
+      <p>Copyright © 1997-2018 by www.people.com.cn. all rights reserved</p>
+    </div>
+  </div>
+</div>
+    <div class="ox-showBox"><div class="show-box" id="showBox">
+    <img src="@&amp;1.jpg&amp;" @click="close" id="showBoxImage" template="showBox">
+  </div>
+</div>
+  </div>
+</div>
+    <!-- 页面脚本 -->
+    <script src="./static/js/autoReload.js" type="text/javascript"></script>
+    <script src="./static/js/main.js" type="text/javascript" ></script>
+    <script src="./static/js/tagcanvas.js" type="text/javascript" ></script>
+    <script src="./static/js/swiper2.js" type="text/javascript" ></script>
+    <script src="./static/js/3dflow.js" type="text/javascript" ></script>
+    <!-- 主要script文件 -->
+    <script src="./static/js/ozzx.main.js" type="text/javascript"></script>
+  </body>
+</html>
+[2019-03-28T14:10:04.366] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T14:10:04.366] [DEBUG] main.js - 准备输出html!
+[2019-03-28T14:10:04.366] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\logo.png
+[2019-03-28T14:10:04.366] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\1.jpg
+[2019-03-28T14:10:04.366] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\2.jpg
+[2019-03-28T14:10:04.366] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\3.jpg
+[2019-03-28T14:10:04.366] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\4.png
+[2019-03-28T14:10:04.366] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\5.jpg
+[2019-03-28T14:10:04.366] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\6.png
+[2019-03-28T14:10:04.366] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\7.jpg
+[2019-03-28T14:10:04.366] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\8.jpg
+[2019-03-28T14:10:04.366] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\left_icon.png
+[2019-03-28T14:10:04.366] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\right_icon.png
+[2019-03-28T14:10:04.367] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:10:04.367] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:10:04.367] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:10:04.367] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\1.jpg
+[2019-03-28T14:10:04.367] [INFO] main.js - Compile successfully, Use time: 637 msec!
+[2019-03-28T14:10:22.829] [INFO] main.js - file change: D:\work\take a message\src\page\swiper.page
+[2019-03-28T14:10:22.829] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-28T14:10:22.829] [INFO] main.js - 程序运行目录: D:\work\take a message
+[2019-03-28T14:10:22.829] [INFO] main.js - 刷新模式,变化目录: D:\work\take a message\src\page\swiper.page
+[2019-03-28T14:10:22.829] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-28T14:10:22.830] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-28T14:10:22.830] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}]
+[2019-03-28T14:10:22.832] [DEBUG] index.js - 处理模板: ./src/page/topBar.page
+[2019-03-28T14:10:22.836] [DEBUG] index.js - 处理模板: ./src/page/banner.page
+[2019-03-28T14:10:22.838] [DEBUG] index.js - 处理模板: ./src/page/tagCloud.page
+[2019-03-28T14:10:22.850] [DEBUG] index.js - 处理模板: ./src/page/messageBox.page
+[2019-03-28T14:10:22.852] [DEBUG] index.js - 处理模板: ./src/page/swiper.page
+[2019-03-28T14:10:22.865] [DEBUG] index.js - 处理模板: ./src/page/footer.page
+[2019-03-28T14:10:22.871] [DEBUG] index.js - 处理模板: http://cunchu.site/ozzx/template/copyright.page
+[2019-03-28T14:10:23.139] [DEBUG] index.js - 处理模板: ./src/page/showImageBox.page
+[2019-03-28T14:10:23.153] [DEBUG] index.js - 页面中使用到的动画列表: [object Set]
+[2019-03-28T14:10:23.153] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\banana.png
+[2019-03-28T14:10:23.153] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\h5-banana.png
+[2019-03-28T14:10:23.153] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\difang-logo.png
+[2019-03-28T14:10:23.153] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\care.png
+[2019-03-28T14:10:23.153] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\discuss.png
+[2019-03-28T14:10:23.153] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\other.png
+[2019-03-28T14:10:23.158] [INFO] main.js - 写文件: D:\work\take a message\dist\static\css\ozzx.animation.css
+[2019-03-28T14:10:23.159] [DEBUG] main.js - 页面中不包含切换动画!
+[2019-03-28T14:10:23.213] [DEBUG] main.js - 处理引用脚本: [{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}]
+[2019-03-28T14:10:23.213] [DEBUG] main.js - 外部脚本数量: 4
+[2019-03-28T14:10:23.213] [DEBUG] main.js - 处理脚本: main
+[2019-03-28T14:10:23.213] [DEBUG] main.js - 使用bable处理脚本!
+[2019-03-28T14:10:23.213] [DEBUG] main.js - 处理脚本: tagcanvas
+[2019-03-28T14:10:23.214] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:10:23.214] [DEBUG] main.js - 处理脚本: swiper2
+[2019-03-28T14:10:23.214] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:10:23.214] [DEBUG] main.js - 处理脚本: 3dflow
+[2019-03-28T14:10:23.214] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:10:23.214] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T14:10:23.214] [DEBUG] main.js - 还有没有经过处理的资源!
+[2019-03-28T14:10:23.214] [DEBUG] main.js - <!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>页面</title>
+    <!-- 页面的元信息 -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!-- css-output -->
+    <link rel="stylesheet" href="./static/css/ozzx.animation.css">
+  </head>
+  <body>
+    <!-- 页面区域 -->
+    <div class="ox-home ox" id="ox-home"><div class="main-box" @name="mainBox">
+    <div class="ox-titleBar"><div class="title-bar">
+    <div class="content">
+      <img class="logo content-item" src="@&amp;logo.png&amp;">
+      <div class="link content-item">人民网首页</div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+    <div class="ox-banner"><div class="banner-box" @name="bannerBox">
+    <div class="text-box">编者按：在人民网推出的“2019两会来了 我托书记省长捎句话”活动中，各地网友以25万条留言，说出了他们对城市治理、百姓住房、教育保障等民生问题的看法与期待，一起来看看吧！</div>
+  </div>
+</div>
+    <div class="title care"></div>
+    <div class="ox-tagCloud"><div id="myCanvasContainer" class="tag-cloud-box">
+    <canvas width="1000" height="400" id="myCanvas">
+      <p>Anything in here will be replaced on browsers that support the canvas element</p>
+    </canvas>
+  </div>
+  <div id="tags" class="tag-box">
+    <ul>
+      <li class="rank-3"><a href="/#">医疗服务</a></li>
+      <li class="rank-1"><a href="/#">农村改革</a></li>
+      <li class="rank-3"><a href="/#">城镇住房</a></li>
+      <li class="rank-2"><a href="/#">污染防治</a></li>
+      <li class="rank-4"><a href="/#">百姓收入</a></li>
+      <li class="rank-4"><a href="/#">营商环境</a></li>
+      <li class="rank-2"><a href="/#">城市交通</a></li>
+      <li class="rank-2"><a href="/#">新型城镇化</a></li>
+      <li class="rank-3"><a href="/#">区域协调</a></li>
+      <li class="rank-1"><a href="/#">政务服务</a></li>
+      <li class="rank-4"><a href="/#">创新创业</a></li>
+      <li class="rank-3"><a href="/#">教育保障</a></li>
+      <li class="rank-4"><a href="/#">精准扶贫</a></li>
+      <li class="rank-2"><a href="/#">乡村振兴</a></li>
+      <li class="rank-1"><a href="/#">文化传承</a></li>
+      <li class="rank-2"><a href="/#">绿色发展</a></li>
+      <li class="rank-3"><a href="/#">城市发展</a></li>
+      <li class="rank-4"><a href="/#">休闲旅游</a></li>
+      <li class="rank-2"><a href="/#">财政支出</a></li>
+      <li class="rank-1"><a href="/#">网络环境</a></li>
+    </ul>
+  </div>
+</div>
+    <div class="title discuss"></div>
+    <div class="ox-messageBox"><div class="message-box" @name="messageBox">
+  </div>
+</div>
+    <div class="title other"></div>
+    <div class="ox-swiper"><div class="swiper-container" @name="swiperContainer">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;1.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;2.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;3.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;4.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;5.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;6.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;7.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;8.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+    </div>
+    <img class="last swiper-button" src="@&amp;left_icon.png&amp;" @click="last" template="swiper">
+    <img class="next swiper-button" src="@&amp;right_icon.png&amp;" @click="next" template="swiper">
+  </div>
+</div>
+    <div class="ox-footer"><footer class="footer-box">
+    <div class="content">
+      <div class="logo content-item"></div>
+      <div class="qr-box content-item">
+        <div class="qr-box-item left">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信公众号</div>
+        </div>
+        <div class="qr-box-item middle">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信小程序</div>
+        </div>
+        <div class="qr-box-item right">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">客户端下载</div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </footer>
+</div>
+    <div class="ox-copyright"><div class="copyright-box">
+    <div class="copyright">
+      <p>人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用</p>
+      <p>Copyright © 1997-2018 by www.people.com.cn. all rights reserved</p>
+    </div>
+  </div>
+</div>
+    <div class="ox-showBox"><div class="show-box" id="showBox">
+    <img src="@&amp;1.jpg&amp;" @click="close" id="showBoxImage" template="showBox">
+  </div>
+</div>
+  </div>
+</div>
+    <!-- 页面脚本 -->
+    <script src="./static/js/autoReload.js" type="text/javascript"></script>
+    <script src="./static/js/main.js" type="text/javascript" ></script>
+    <script src="./static/js/tagcanvas.js" type="text/javascript" ></script>
+    <script src="./static/js/swiper2.js" type="text/javascript" ></script>
+    <script src="./static/js/3dflow.js" type="text/javascript" ></script>
+    <!-- 主要script文件 -->
+    <script src="./static/js/ozzx.main.js" type="text/javascript"></script>
+  </body>
+</html>
+[2019-03-28T14:10:23.336] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T14:10:23.336] [DEBUG] main.js - 准备输出html!
+[2019-03-28T14:10:23.336] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\logo.png
+[2019-03-28T14:10:23.336] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\1.jpg
+[2019-03-28T14:10:23.336] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\2.jpg
+[2019-03-28T14:10:23.336] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\3.jpg
+[2019-03-28T14:10:23.336] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\4.png
+[2019-03-28T14:10:23.337] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\5.jpg
+[2019-03-28T14:10:23.337] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\6.png
+[2019-03-28T14:10:23.337] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\7.jpg
+[2019-03-28T14:10:23.337] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\8.jpg
+[2019-03-28T14:10:23.337] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\left_icon.png
+[2019-03-28T14:10:23.337] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\right_icon.png
+[2019-03-28T14:10:23.337] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:10:23.337] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:10:23.337] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:10:23.337] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\1.jpg
+[2019-03-28T14:10:23.338] [INFO] main.js - Compile successfully, Use time: 509 msec!
+[2019-03-28T14:10:33.270] [INFO] main.js - file change: D:\work\take a message\src\page\swiper.page
+[2019-03-28T14:10:33.270] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-28T14:10:33.270] [INFO] main.js - 程序运行目录: D:\work\take a message
+[2019-03-28T14:10:33.270] [INFO] main.js - 刷新模式,变化目录: D:\work\take a message\src\page\swiper.page
+[2019-03-28T14:10:33.270] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-28T14:10:33.270] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-28T14:10:33.270] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}]
+[2019-03-28T14:10:33.274] [DEBUG] index.js - 处理模板: ./src/page/topBar.page
+[2019-03-28T14:10:33.278] [DEBUG] index.js - 处理模板: ./src/page/banner.page
+[2019-03-28T14:10:33.280] [DEBUG] index.js - 处理模板: ./src/page/tagCloud.page
+[2019-03-28T14:10:33.294] [DEBUG] index.js - 处理模板: ./src/page/messageBox.page
+[2019-03-28T14:10:33.297] [DEBUG] index.js - 处理模板: ./src/page/swiper.page
+[2019-03-28T14:10:33.314] [DEBUG] index.js - 处理模板: ./src/page/footer.page
+[2019-03-28T14:10:33.324] [DEBUG] index.js - 处理模板: http://cunchu.site/ozzx/template/copyright.page
+[2019-03-28T14:10:33.601] [DEBUG] index.js - 处理模板: ./src/page/showImageBox.page
+[2019-03-28T14:10:33.613] [DEBUG] index.js - 页面中使用到的动画列表: [object Set]
+[2019-03-28T14:10:33.614] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\banana.png
+[2019-03-28T14:10:33.614] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\h5-banana.png
+[2019-03-28T14:10:33.614] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\difang-logo.png
+[2019-03-28T14:10:33.614] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\care.png
+[2019-03-28T14:10:33.614] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\discuss.png
+[2019-03-28T14:10:33.614] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\other.png
+[2019-03-28T14:10:33.617] [INFO] main.js - 写文件: D:\work\take a message\dist\static\css\ozzx.animation.css
+[2019-03-28T14:10:33.617] [DEBUG] main.js - 页面中不包含切换动画!
+[2019-03-28T14:10:33.747] [DEBUG] main.js - 处理引用脚本: [{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}]
+[2019-03-28T14:10:33.747] [DEBUG] main.js - 外部脚本数量: 4
+[2019-03-28T14:10:33.747] [DEBUG] main.js - 处理脚本: main
+[2019-03-28T14:10:33.747] [DEBUG] main.js - 使用bable处理脚本!
+[2019-03-28T14:10:33.747] [DEBUG] main.js - 处理脚本: tagcanvas
+[2019-03-28T14:10:33.747] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:10:33.747] [DEBUG] main.js - 处理脚本: swiper2
+[2019-03-28T14:10:33.747] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:10:33.747] [DEBUG] main.js - 处理脚本: 3dflow
+[2019-03-28T14:10:33.747] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T14:10:33.747] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T14:10:33.747] [DEBUG] main.js - 还有没有经过处理的资源!
+[2019-03-28T14:10:33.747] [DEBUG] main.js - <!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>页面</title>
+    <!-- 页面的元信息 -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!-- css-output -->
+    <link rel="stylesheet" href="./static/css/ozzx.animation.css">
+  </head>
+  <body>
+    <!-- 页面区域 -->
+    <div class="ox-home ox" id="ox-home"><div class="main-box" @name="mainBox">
+    <div class="ox-titleBar"><div class="title-bar">
+    <div class="content">
+      <img class="logo content-item" src="@&amp;logo.png&amp;">
+      <div class="link content-item">人民网首页</div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+    <div class="ox-banner"><div class="banner-box" @name="bannerBox">
+    <div class="text-box">编者按：在人民网推出的“2019两会来了 我托书记省长捎句话”活动中，各地网友以25万条留言，说出了他们对城市治理、百姓住房、教育保障等民生问题的看法与期待，一起来看看吧！</div>
+  </div>
+</div>
+    <div class="title care"></div>
+    <div class="ox-tagCloud"><div id="myCanvasContainer" class="tag-cloud-box">
+    <canvas width="1000" height="400" id="myCanvas">
+      <p>Anything in here will be replaced on browsers that support the canvas element</p>
+    </canvas>
+  </div>
+  <div id="tags" class="tag-box">
+    <ul>
+      <li class="rank-3"><a href="/#">医疗服务</a></li>
+      <li class="rank-1"><a href="/#">农村改革</a></li>
+      <li class="rank-3"><a href="/#">城镇住房</a></li>
+      <li class="rank-2"><a href="/#">污染防治</a></li>
+      <li class="rank-4"><a href="/#">百姓收入</a></li>
+      <li class="rank-4"><a href="/#">营商环境</a></li>
+      <li class="rank-2"><a href="/#">城市交通</a></li>
+      <li class="rank-2"><a href="/#">新型城镇化</a></li>
+      <li class="rank-3"><a href="/#">区域协调</a></li>
+      <li class="rank-1"><a href="/#">政务服务</a></li>
+      <li class="rank-4"><a href="/#">创新创业</a></li>
+      <li class="rank-3"><a href="/#">教育保障</a></li>
+      <li class="rank-4"><a href="/#">精准扶贫</a></li>
+      <li class="rank-2"><a href="/#">乡村振兴</a></li>
+      <li class="rank-1"><a href="/#">文化传承</a></li>
+      <li class="rank-2"><a href="/#">绿色发展</a></li>
+      <li class="rank-3"><a href="/#">城市发展</a></li>
+      <li class="rank-4"><a href="/#">休闲旅游</a></li>
+      <li class="rank-2"><a href="/#">财政支出</a></li>
+      <li class="rank-1"><a href="/#">网络环境</a></li>
+    </ul>
+  </div>
+</div>
+    <div class="title discuss"></div>
+    <div class="ox-messageBox"><div class="message-box" @name="messageBox">
+  </div>
+</div>
+    <div class="title other"></div>
+    <div class="ox-swiper"><div class="swiper-container" @name="swiperContainer">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;1.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;2.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;3.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;4.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;5.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;6.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;7.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;8.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+    </div>
+    <img class="last swiper-button" src="@&amp;left_icon.png&amp;" @click="last" template="swiper">
+    <img class="next swiper-button" src="@&amp;right_icon.png&amp;" @click="next" template="swiper">
+  </div>
+</div>
+    <div class="ox-footer"><footer class="footer-box">
+    <div class="content">
+      <div class="logo content-item"></div>
+      <div class="qr-box content-item">
+        <div class="qr-box-item left">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信公众号</div>
+        </div>
+        <div class="qr-box-item middle">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信小程序</div>
+        </div>
+        <div class="qr-box-item right">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">客户端下载</div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </footer>
+</div>
+    <div class="ox-copyright"><div class="copyright-box">
+    <div class="copyright">
+      <p>人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用</p>
+      <p>Copyright © 1997-2018 by www.people.com.cn. all rights reserved</p>
+    </div>
+  </div>
+</div>
+    <div class="ox-showBox"><div class="show-box" id="showBox">
+    <img src="@&amp;1.jpg&amp;" @click="close" id="showBoxImage" template="showBox">
+  </div>
+</div>
+  </div>
+</div>
+    <!-- 页面脚本 -->
+    <script src="./static/js/autoReload.js" type="text/javascript"></script>
+    <script src="./static/js/main.js" type="text/javascript" ></script>
+    <script src="./static/js/tagcanvas.js" type="text/javascript" ></script>
+    <script src="./static/js/swiper2.js" type="text/javascript" ></script>
+    <script src="./static/js/3dflow.js" type="text/javascript" ></script>
+    <!-- 主要script文件 -->
+    <script src="./static/js/ozzx.main.js" type="text/javascript"></script>
+  </body>
+</html>
+[2019-03-28T14:10:33.868] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T14:10:33.868] [DEBUG] main.js - 准备输出html!
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\logo.png
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\1.jpg
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\2.jpg
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\3.jpg
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\4.png
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\5.jpg
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\6.png
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\7.jpg
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\8.jpg
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\left_icon.png
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\right_icon.png
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\qr.png
+[2019-03-28T14:10:33.869] [DEBUG] default - 忽略文件: D:\work\take a message\src\resource\1.jpg
+[2019-03-28T14:10:33.870] [INFO] main.js - Compile successfully, Use time: 600 msec!

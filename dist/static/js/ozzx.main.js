@@ -317,9 +317,10 @@ window.ozzx = {
                 //其他设置
                 tdFlow: {
                   rotate: 10,
-                  stretch: 80,
-                  depth: 40,
-                  modifier: 1
+                  stretch: 0,
+                  depth: 100,
+                  modifier: 1.4,
+                  shadows: true
                 },
                 onSlideClick: function onSlideClick(swiper) {
                   var url = swiper.clickedSlide.firstChild.src;
@@ -337,10 +338,10 @@ window.ozzx = {
                 //其他设置
                 tdFlow: {
                   rotate: 10,
-                  stretch: 0,
-                  depth: 400,
+                  stretch: 80,
+                  depth: 30,
                   modifier: 1,
-                  shadows: true
+                  roundLengths: true
                 },
                 onSlideClick: function onSlideClick(swiper) {
                   // .getAttribute("src")
