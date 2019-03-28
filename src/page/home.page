@@ -24,6 +24,10 @@
         $dom('mainBox').classList.add('min')
       }
       $dom('mainBox').style.opacity = 1
+      // 页面大小改变事件
+      window.onresize = function() {
+        location.reload()
+      }
     }
   }
 </script>

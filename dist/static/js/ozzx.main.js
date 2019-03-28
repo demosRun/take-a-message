@@ -202,7 +202,11 @@ window.ozzx = {
           $dom('mainBox').classList.add('min');
         }
 
-        $dom('mainBox').style.opacity = 1;
+        $dom('mainBox').style.opacity = 1; // 页面大小改变事件
+
+        window.onresize = function () {
+          location.reload();
+        };
       },
       "template": {
         "banner": {
@@ -301,7 +305,7 @@ window.ozzx = {
 
             if (screen.ratio < 1) {
               // 手机屏幕点击
-              $dom('swiperContainer').style.height = screen.clientWidth * 0.6 + 'px';
+              $dom('swiperContainer').style.height = screen.clientWidth * 0.8 + 'px';
               $dom('swiperContainer').classList.add('min');
               this.data.mySwiper = new Swiper('.swiper-container', {
                 autoplay: 3000,
@@ -313,10 +317,9 @@ window.ozzx = {
                 //其他设置
                 tdFlow: {
                   rotate: 10,
-                  stretch: 0,
-                  depth: 100,
-                  modifier: 1.4,
-                  shadows: true
+                  stretch: 80,
+                  depth: 40,
+                  modifier: 1
                 },
                 onSlideClick: function onSlideClick(swiper) {
                   var url = swiper.clickedSlide.firstChild.src;
