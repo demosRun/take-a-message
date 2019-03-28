@@ -23,12 +23,16 @@
       if (screen.ratio < 1) {
         $dom('mainBox').classList.add('min')
       }
+      $dom('mainBox').style.opacity = 1
     }
   }
 </script>
 
 
 <style lang="less">
+.main-box {
+  opacity: 0;
+}
 .title {
   height: 60px;
   background-repeat: no-repeat;

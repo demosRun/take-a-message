@@ -310,7 +310,11 @@ body, html, .ox {
 
 .ox-showBox img {
   width: 100%;
-}.ox-home .title {
+}.ox-home .main-box {
+  opacity: 0;
+}
+
+.ox-home .title {
   height: 60px;
   background-repeat: no-repeat;
   background-position: center;

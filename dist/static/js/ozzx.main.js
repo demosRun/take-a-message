@@ -201,6 +201,8 @@ window.ozzx = {
         if (screen.ratio < 1) {
           $dom('mainBox').classList.add('min');
         }
+
+        $dom('mainBox').style.opacity = 1;
       },
       "template": {
         "banner": {
@@ -234,6 +236,7 @@ window.ozzx = {
               outlineColour: '#ff00ff',
               textHeight: 20,
               maxSpeed: 0.05,
+              minSpeed: 0.005,
               wheelZoom: false,
               stretchX: 1.8,
               dragControl: true
