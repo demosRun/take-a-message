@@ -296,6 +296,7 @@ window.ozzx = {
             var screen = ozzx.tool.getScreenInfo();
 
             if (screen.ratio < 1) {
+              // 手机屏幕点击
               $dom('swiperContainer').style.height = screen.clientWidth * 0.6 + 'px';
               $dom('swiperContainer').classList.add('min');
               this.data.mySwiper = new Swiper('.swiper-container', {
@@ -309,9 +310,14 @@ window.ozzx = {
                 tdFlow: {
                   rotate: 10,
                   stretch: 0,
-                  depth: 200,
+                  depth: 100,
                   modifier: 1.4,
                   shadows: true
+                },
+                onSlideClick: function onSlideClick(swiper) {
+                  var url = swiper.clickedSlide.firstChild.src;
+                  document.getElementById('showBoxImage').src = url;
+                  document.getElementById('showBox').style.top = '0';
                 }
               });
             } else {
@@ -328,6 +334,14 @@ window.ozzx = {
                   depth: 400,
                   modifier: 1,
                   shadows: true
+                },
+                onSlideClick: function onSlideClick(swiper) {
+                  // .getAttribute("src")
+                  var url = swiper.clickedSlide.getAttribute("src");
+
+                  if (url) {
+                    window.open(url);
+                  }
                 }
               });
             }
@@ -341,6 +355,12 @@ window.ozzx = {
         },
         "footer": {
           "created": function created() {}
+        },
+        "showBox": {
+          "created": function created() {},
+          "close": function close() {
+            document.getElementById('showBox').style.top = '100%';
+          }
         }
       }
     },

@@ -5,6 +5,7 @@ body, html {
   -webkit-overflow-scrolling:touch; /*兼容IOS*/
   overflow-x: hidden;
 }
+
 .min {
   width: 100%;
   overflow-x: hidden;

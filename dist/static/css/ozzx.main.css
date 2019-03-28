@@ -295,6 +295,21 @@ body, html, .ox {
   top: 0;
   bottom: 0;
   margin: auto;
+}.ox-showBox .show-box {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 100%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  overflow: auto;
+  transition: top 0.5s linear;
+}
+
+.ox-showBox img {
+  width: 100%;
 }.ox-home .title {
   height: 60px;
   background-repeat: no-repeat;

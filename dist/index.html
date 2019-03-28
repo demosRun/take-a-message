@@ -66,16 +66,16 @@
     <div class="title other"></div>
     <div class="ox-swiper"><div class="swiper-container" @name="swiperContainer">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="./static/resource/1.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="./static/resource/2.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="./static/resource/3.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="./static/resource/4.png"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="./static/resource/5.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="./static/resource/6.png"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="./static/resource/7.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="./static/resource/8.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="./static/resource/1.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="./static/resource/2.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="./static/resource/3.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="./static/resource/4.png"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="./static/resource/5.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="./static/resource/6.png"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="./static/resource/7.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="./static/resource/8.jpg"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
     </div>
-    <img class="last swiper-button" src="./static/resource/left_icon.png" @click="next" template="swiper">
+    <img class="last swiper-button" src="./static/resource/left_icon.png" @click="last" template="swiper">
     <img class="next swiper-button" src="./static/resource/right_icon.png" @click="next" template="swiper">
   </div>
 </div>
@@ -106,6 +106,10 @@
       <p>人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用</p>
       <p>Copyright © 1997-2018 by www.people.com.cn. all rights reserved</p>
     </div>
+  </div>
+</div>
+    <div class="ox-showBox"><div class="show-box" id="showBox">
+    <img src="./static/resource/1.jpg" @click="close" id="showBoxImage" template="showBox">
   </div>
 </div>
   </div>

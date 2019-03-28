@@ -1,16 +1,16 @@
 <template>
   <div class="swiper-container" @name="swiperContainer">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="@&1.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="@&2.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="@&3.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="@&4.png&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="@&5.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="@&6.png&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="@&7.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide"><img src="@&8.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&1.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&2.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&3.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&4.png&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&5.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&6.png&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&7.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&8.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
     </div>
-    <img class="last swiper-button" src="@&left_icon.png&" @click="next"/>
+    <img class="last swiper-button" src="@&left_icon.png&" @click="last"/>
     <img class="next swiper-button" src="@&right_icon.png&" @click="next"/>
   </div>
 </template>
@@ -23,6 +23,7 @@
     created: function () {
       const screen = ozzx.tool.getScreenInfo()
       if (screen.ratio < 1) {
+        // 手机屏幕点击
         $dom('swiperContainer').style.height = screen.clientWidth * 0.6 + 'px'
         $dom('swiperContainer').classList.add('min')
         this.data.mySwiper = new Swiper('.swiper-container', {
@@ -36,9 +37,14 @@
           tdFlow: {
             rotate : 10,
             stretch :0,
-            depth: 200,
+            depth: 100,
             modifier : 1.4,
             shadows:true
+          },
+          onSlideClick: function(swiper) {
+            const url = swiper.clickedSlide.firstChild.src
+            document.getElementById('showBoxImage').src = url
+            document.getElementById('showBox').style.top = '0'
           }
         })
       } else {
@@ -55,6 +61,13 @@
             depth: 400,
             modifier : 1,
             shadows:true
+          },
+          onSlideClick: function(swiper){
+            // .getAttribute("src")
+            const url = swiper.clickedSlide.getAttribute("src")
+            if (url) {
+              window.open(url)
+            }
           }
         })
       }

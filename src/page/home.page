@@ -10,6 +10,7 @@
     <temple name="swiper" src="./src/page/swiper.page"></temple>
     <temple name="footer" src="./src/page/footer.page"></temple>
     <temple name="copyright" src="http://cunchu.site/ozzx/template/copyright.page"></temple>
+    <temple name="showBox" src="./src/page/showImageBox.page"></temple>
   </div>
 </template>
 
