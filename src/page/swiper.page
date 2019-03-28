@@ -27,7 +27,7 @@
         $dom('swiperContainer').style.height = screen.clientWidth * 0.8 + 'px'
         $dom('swiperContainer').classList.add('min')
         this.data.mySwiper = new Swiper('.swiper-container', {
-          autoplay: 3000,
+          autoplay: 6000,
           loop: true,
           // 禁用鼠标点击
           simulateTouch: false,
@@ -42,9 +42,12 @@
             shadows:true
           },
           onSlideClick: function(swiper) {
-            const url = swiper.clickedSlide.firstChild.src
-            document.getElementById('showBoxImage').src = url
-            document.getElementById('showBox').style.top = '0'
+            console.log(swiper.centerIndex, swiper)
+            if (swiper.activeIndex == swiper.clickedSlideIndex - 1) {
+              const url = swiper.clickedSlide.firstChild.src
+              document.getElementById('showBoxImage').src = url
+              document.getElementById('showBox').style.top = '0'
+            }
           }
         })
       } else {

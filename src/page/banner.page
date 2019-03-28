@@ -15,7 +15,7 @@
       } else {
         $dom('bannerBox').classList.add('min')
         console.log(screen.clientWidth * 1.05)
-        $dom('bannerBox').style.height = screen.clientWidth * 1.05 + 30 + 'px'
+        $dom('bannerBox').style.height = screen.clientHeight + 'px'
       }
     }
   }
@@ -39,6 +39,7 @@
   width: 76%;
   left: 16%;
   font-weight: bold;
+  top: 75%;
 }
 .text-box {
   position: absolute;

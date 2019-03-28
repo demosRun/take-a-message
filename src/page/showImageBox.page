@@ -1,6 +1,7 @@
 <template>
   <div class="show-box" id="showBox">
-    <img src="@&1.jpg&" @click="close" id="showBoxImage"/>
+    <img src="@&1.jpg&" id="showBoxImage"/>
+    <div class="close-button" @click="close"></div>
   </div>
 </template>
 
@@ -22,12 +23,22 @@
   left: 0;
   top: 100%;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 10;
   overflow: auto;
   transition: top 0.5s linear;
+  padding: 10%;
 }
 img {
-  width: 100%;
+  width: 80%;
+}
+.close-button {
+  position: absolute;
+  background-image: url(../resource/close.png);
+  width: 25px;
+  height: 25px;
+  right: 80px;
+  top: 20px;
+  background-size: 25px;
 }
 </style>

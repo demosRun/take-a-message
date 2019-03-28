@@ -60,6 +60,9 @@
   max-width: 1000px;
   margin: auto;
   position: relative;
+  background-image: url('@&h5-check-bg.png&');
+  background-size: 100%;
+  background-position: -20px;
 }
 .message-item {
   float: left;
@@ -107,6 +110,7 @@
   margin: auto;
   left: 130px;
   color: #444444;
+  overflow-y: auto;
 }
 .active {
   background-color: #d83649;

@@ -65,6 +65,7 @@ body, html, .ox {
   width: 76%;
   left: 16%;
   font-weight: bold;
+  top: 75%;
 }
 
 .ox-banner .text-box {
@@ -92,7 +93,6 @@ body, html, .ox {
 
 .ox-tagCloud .rank-3 {
   font-size: 28px;
-  color: #a9a9a9;
 }
 
 .ox-tagCloud .tag-cloud-box {
@@ -101,6 +101,9 @@ body, html, .ox {
   max-width: 1000px;
   margin: auto;
   position: relative;
+  background-image: url('../resource/h5-check-bg.png');
+  background-size: 100%;
+  background-position: -20px;
 }
 
 .ox-messageBox .message-item {
@@ -155,6 +158,7 @@ body, html, .ox {
   margin: auto;
   left: 130px;
   color: #444444;
+  overflow-y: auto;
 }
 
 .ox-messageBox .active {
@@ -302,14 +306,25 @@ body, html, .ox {
   left: 0;
   top: 100%;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 10;
   overflow: auto;
   transition: top 0.5s linear;
+  padding: 10%;
 }
 
 .ox-showBox img {
-  width: 100%;
+  width: 80%;
+}
+
+.ox-showBox .close-button {
+  position: absolute;
+  background-image: url(../resource/close.png);
+  width: 25px;
+  height: 25px;
+  right: 80px;
+  top: 20px;
+  background-size: 25px;
 }.ox-home .main-box {
   opacity: 0;
 }
