@@ -10,3 +10,8 @@ const messageList = [
   {name: "创新创业", data: "“能否为大学生开辟创业创新绿色通道”“这里急需创业创新人才培育”“农民工返乡创业资金有限怎么办”……不少农民工、大中专毕业生、科技人员等身份的网友留言，就创业中遇到的问题，写下了看法和建议。"},
   {name: "精准扶贫", data: "2019年是打赢脱贫攻坚战极为关键的一年。围绕攻坚脱贫，网友们关心教育、产业与生态扶贫，关注搬迁安置、就业扶持与提高收入等，期待加大攻坚力度，让贫困人口早日摆脱贫困。"}
 ]
+
+// document.querySelector('body').addEventListener('touchmove', function(e) {
+//   e.preventDefault()
+//   return
+// })

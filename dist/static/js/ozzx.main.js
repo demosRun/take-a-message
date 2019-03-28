@@ -238,6 +238,7 @@ window.ozzx = {
               stretchX: 1.8,
               dragControl: true
             });
+            TagCanvas.SetSpeed('myCanvas', [-0.05, -0.05]);
           }
         },
         "messageBox": {

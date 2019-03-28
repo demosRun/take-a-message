@@ -30,4 +30,7 @@ var messageList = [{
 }, {
   name: "精准扶贫",
   data: "2019年是打赢脱贫攻坚战极为关键的一年。围绕攻坚脱贫，网友们关心教育、产业与生态扶贫，关注搬迁安置、就业扶持与提高收入等，期待加大攻坚力度，让贫困人口早日摆脱贫困。"
-}];
+}]; // document.querySelector('body').addEventListener('touchmove', function(e) {
+//   e.preventDefault()
+//   return
+// })

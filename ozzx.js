@@ -17,7 +17,7 @@ module.exports = {
     },
     {
       name: 'viewport',
-      content: 'initial-scale=1,user-scalable=no,maximum-scale=1',
+      content: 'width=device-width,initial-scale=1,user-scalable=no',
     }
   ],
   // 使用到的外部脚本清单
@@ -30,7 +30,7 @@ module.exports = {
     },
     {
       name: "tagcanvas",
-      src: "./src/script/tagcanvas.min.js",
+      src: "./src/script/tagcanvas.js",
       // 是否使用babel处理
       babel: false,
       // 是否异步加载此脚本,请确保此脚本不会对DOM进行操作
