@@ -30,7 +30,7 @@
   position: relative;
 }
 .min {
-  background-position-y: 30px;
+  background-position-y: 25px;
   background-image: url('@&h5-banana.png&');
 }
 .min .text-box {

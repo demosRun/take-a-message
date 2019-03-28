@@ -15037,3 +15037,226 @@
 [2019-03-28T17:16:11.512] [INFO] tool.js - 读取成功: D:\work\take a message\src\script\tagcanvas.js
 [2019-03-28T17:16:11.607] [INFO] tool.js - 写入文件: D:\work\take a message\dist\static\js\swiper2.js
 [2019-03-28T17:16:11.624] [INFO] tool.js - 写入文件: D:\work\take a message\dist\static\js\tagcanvas.js
+[2019-03-28T17:48:49.607] [DEBUG] main.js - 获取到配置信息:
+[2019-03-28T17:48:49.609] [DEBUG] main.js - { outPut: { minifyCss: true, minifyJs: true, outFileAddVersion: true },
+  root: '/src',
+  entry: 'home',
+  title: '页面',
+  outFolder: './dist',
+  resourceFolder: './src/resource',
+  headList:
+   [ { 'http-equiv': 'content-type',
+       content: 'text/html; charset=UTF-8' },
+     { name: 'viewport',
+       content: 'width=device-width,initial-scale=1,user-scalable=no' } ],
+  scriptList:
+   [ { name: 'main', src: './src/main.js', babel: true },
+     { name: 'tagcanvas',
+       src: './src/script/tagcanvas.js',
+       babel: false,
+       defer: false },
+     { name: 'swiper2',
+       src: './src/script/idangerous.swiper2.7.6.min.js' },
+     { name: '3dflow',
+       src: './src/script/idangerous.swiper.3dflow.js' } ],
+  styleList:
+   [ { name: 'swiper2',
+       src: './src/style/idangerous.swiper2.7.6.css' },
+     { name: '3dflow',
+       src: './src/style/idangerous.swiper.3dflow.css' },
+     { name: 'main', src: './src/main.css' } ],
+  pageList:
+   [ { main: true,
+       isPage: true,
+       name: 'home',
+       src: './src/page/home.page' } ],
+  dev:
+   { watcher: { enable: true, ignored: './dist/*', depth: 99 },
+     outPut:
+      { minifyCss: false, minifyJs: false, outFileAddVersion: false },
+     serverPort: 8080,
+     server: true,
+     autoReload: true },
+  build:
+   { outPut: { minifyCss: true, minifyJs: true, outFileAddVersion: true } } }
+[2019-03-28T17:48:49.610] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-28T17:48:49.610] [INFO] main.js - 程序运行目录: D:\work\take a message
+[2019-03-28T17:48:49.610] [INFO] main.js - 首次启动!
+[2019-03-28T17:48:49.610] [INFO] main.js - 生成版本号: 9vnl9rj4xgi
+[2019-03-28T17:48:49.616] [INFO] main.js - 清理资源文件夹: D:\work\take a message\dist\static
+[2019-03-28T17:48:49.616] [INFO] tool.js - 文件夹不存在: D:\work\take a message\dist\static
+[2019-03-28T17:48:49.616] [INFO] tool.js - 创建文件夹: D:\work\take a message\dist\static
+[2019-03-28T17:48:49.616] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-28T17:48:49.617] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-28T17:48:49.617] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}]
+[2019-03-28T17:48:49.641] [DEBUG] index.js - 处理模板: ./src/page/topBar.page
+[2019-03-28T17:48:49.654] [DEBUG] index.js - 处理模板: ./src/page/banner.page
+[2019-03-28T17:48:49.663] [DEBUG] index.js - 处理模板: ./src/page/tagCloud.page
+[2019-03-28T17:48:49.764] [DEBUG] index.js - 处理模板: ./src/page/messageBox.page
+[2019-03-28T17:48:49.767] [DEBUG] index.js - 处理模板: ./src/page/swiper.page
+[2019-03-28T17:48:49.801] [DEBUG] index.js - 处理模板: ./src/page/footer.page
+[2019-03-28T17:48:49.818] [DEBUG] index.js - 处理模板: http://cunchu.site/ozzx/template/copyright.page
+[2019-03-28T17:48:50.289] [DEBUG] index.js - 处理模板: ./src/page/showImageBox.page
+[2019-03-28T17:48:50.316] [DEBUG] index.js - 页面中使用到的动画列表: [object Set]
+[2019-03-28T17:48:50.320] [INFO] tool.js - 文件夹不存在: D:\work\take a message\dist\static\resource
+[2019-03-28T17:48:50.321] [INFO] tool.js - 创建文件夹: D:\work\take a message\dist\static\resource
+[2019-03-28T17:48:50.337] [INFO] tool.js - 文件夹不存在: D:\work\take a message\dist\static\css
+[2019-03-28T17:48:50.337] [INFO] tool.js - 创建文件夹: D:\work\take a message\dist\static\css
+[2019-03-28T17:48:50.337] [INFO] main.js - 写文件: D:\work\take a message\dist\static\css\ozzx.animation.css
+[2019-03-28T17:48:50.337] [DEBUG] main.js - 页面中不包含切换动画!
+[2019-03-28T17:48:51.364] [INFO] tool.js - 文件夹不存在: D:\work\take a message\dist\static\js
+[2019-03-28T17:48:51.364] [INFO] tool.js - 创建文件夹: D:\work\take a message\dist\static\js
+[2019-03-28T17:48:51.365] [DEBUG] main.js - 处理引用脚本: [{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}]
+[2019-03-28T17:48:51.365] [DEBUG] main.js - 外部脚本数量: 4
+[2019-03-28T17:48:51.365] [DEBUG] main.js - 处理脚本: main
+[2019-03-28T17:48:51.365] [DEBUG] main.js - 使用bable处理脚本!
+[2019-03-28T17:48:51.366] [DEBUG] main.js - 处理脚本: tagcanvas
+[2019-03-28T17:48:51.366] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T17:48:51.366] [INFO] tool.js - 读取文件: D:\work\take a message\src\script\tagcanvas.js
+[2019-03-28T17:48:51.366] [DEBUG] main.js - 处理脚本: swiper2
+[2019-03-28T17:48:51.366] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T17:48:51.366] [INFO] tool.js - 读取文件: D:\work\take a message\src\script\idangerous.swiper2.7.6.min.js
+[2019-03-28T17:48:51.366] [DEBUG] main.js - 处理脚本: 3dflow
+[2019-03-28T17:48:51.366] [DEBUG] main.js - 不使用bable处理脚本!
+[2019-03-28T17:48:51.366] [INFO] tool.js - 读取文件: D:\work\take a message\src\script\idangerous.swiper.3dflow.js
+[2019-03-28T17:48:51.548] [INFO] tool.js - 读取文件: D:\work\take a message\src\style\idangerous.swiper2.7.6.css
+[2019-03-28T17:48:51.548] [INFO] tool.js - 读取文件: D:\work\take a message\src\style\idangerous.swiper.3dflow.css
+[2019-03-28T17:48:51.548] [INFO] tool.js - 读取文件: D:\work\take a message\src\main.css
+[2019-03-28T17:48:51.548] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T17:48:51.548] [DEBUG] main.js - 还有没有经过处理的资源!
+[2019-03-28T17:48:51.548] [DEBUG] main.js - <!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>页面</title>
+    <!-- 页面的元信息 -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!-- 页面主样式文件 -->
+    <link rel="stylesheet" href="./static/css/ozzx.main.css">
+    <!-- 附属css文件 -->
+    <link rel="stylesheet" href="./static/css/swiper2.css">
+    <link rel="stylesheet" href="./static/css/3dflow.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/ozzx.animation.css">
+  </head>
+  <body>
+    <!-- 页面区域 -->
+    <div class="ox-home ox" id="ox-home"><div class="main-box" @name="mainBox">
+    <div class="ox-titleBar"><div class="title-bar">
+    <div class="content">
+      <img class="logo content-item" src="@&amp;logo.png&amp;">
+      <div class="link content-item">人民网首页</div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+    <div class="ox-banner"><div class="banner-box" @name="bannerBox">
+    <div class="text-box">编者按：在人民网推出的“2019两会来了 我托书记省长捎句话”活动中，各地网友以25万条留言，说出了他们对城市治理、百姓住房、教育保障等民生问题的看法与期待，一起来看看吧！</div>
+  </div>
+</div>
+    <div class="title care"></div>
+    <div class="ox-tagCloud"><div id="myCanvasContainer" class="tag-cloud-box">
+    <canvas width="1000" height="400" id="myCanvas">
+      <p>Anything in here will be replaced on browsers that support the canvas element</p>
+    </canvas>
+  </div>
+  <div id="tags" class="tag-box">
+    <ul>
+      <li class="rank-3"><a href="/#">医疗服务</a></li>
+      <li class="rank-1"><a href="/#">农村改革</a></li>
+      <li class="rank-3"><a href="/#">城镇住房</a></li>
+      <li class="rank-2"><a href="/#">污染防治</a></li>
+      <li class="rank-4"><a href="/#">百姓收入</a></li>
+      <li class="rank-4"><a href="/#">营商环境</a></li>
+      <li class="rank-2"><a href="/#">城市交通</a></li>
+      <li class="rank-2"><a href="/#">新型城镇化</a></li>
+      <li class="rank-3"><a href="/#">区域协调</a></li>
+      <li class="rank-1"><a href="/#">政务服务</a></li>
+      <li class="rank-4"><a href="/#">创新创业</a></li>
+      <li class="rank-3"><a href="/#">教育保障</a></li>
+      <li class="rank-4"><a href="/#">精准扶贫</a></li>
+      <li class="rank-2"><a href="/#">乡村振兴</a></li>
+      <li class="rank-1"><a href="/#">文化传承</a></li>
+      <li class="rank-2"><a href="/#">绿色发展</a></li>
+      <li class="rank-3"><a href="/#">城市发展</a></li>
+      <li class="rank-4"><a href="/#">休闲旅游</a></li>
+      <li class="rank-2"><a href="/#">财政支出</a></li>
+      <li class="rank-1"><a href="/#">网络环境</a></li>
+    </ul>
+  </div>
+</div>
+    <div class="title discuss"></div>
+    <div class="ox-messageBox"><div class="message-box" @name="messageBox">
+  </div>
+</div>
+    <div class="title other"></div>
+    <div class="ox-swiper"><div class="swiper-container" @name="swiperContainer">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;1.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;2.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;3.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;4.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;5.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;6.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;7.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&amp;8.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+    </div>
+    <img class="last swiper-button" src="@&amp;left_icon.png&amp;" @click="last" template="swiper">
+    <img class="next swiper-button" src="@&amp;right_icon.png&amp;" @click="next" template="swiper">
+  </div>
+</div>
+    <div class="ox-footer"><footer class="footer-box">
+    <div class="content">
+      <div class="logo content-item"></div>
+      <div class="qr-box content-item">
+        <div class="qr-box-item left">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信公众号</div>
+        </div>
+        <div class="qr-box-item middle">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">微信小程序</div>
+        </div>
+        <div class="qr-box-item right">
+          <img src="@&amp;qr.png&amp;">
+          <div class="text">客户端下载</div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </footer>
+</div>
+    <div class="ox-copyright"><div class="copyright-box">
+    <div class="copyright">
+      <p>人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用</p>
+      <p>Copyright © 1997-2018 by www.people.com.cn. all rights reserved</p>
+    </div>
+  </div>
+</div>
+    <div class="ox-showBox"><div class="show-box" id="showBox">
+    <img src="@&amp;1.jpg&amp;" id="showBoxImage">
+    <div class="close-button" @click="close" template="showBox"></div>
+  </div>
+</div>
+  </div>
+</div>
+    <!-- script-output -->
+  </body>
+</html>
+[2019-03-28T17:48:51.566] [INFO] tool.js - 读取成功: D:\work\take a message\src\script\idangerous.swiper.3dflow.js
+[2019-03-28T17:48:51.566] [INFO] tool.js - 读取成功: D:\work\take a message\src\style\idangerous.swiper2.7.6.css
+[2019-03-28T17:48:51.566] [INFO] tool.js - 读取成功: D:\work\take a message\src\main.css
+[2019-03-28T17:48:51.566] [INFO] tool.js - 读取成功: D:\work\take a message\src\style\idangerous.swiper.3dflow.css
+[2019-03-28T17:48:51.783] [INFO] tool.js - 写入文件: D:\work\take a message\dist\static\js\3dflow.js
+[2019-03-28T17:48:51.783] [INFO] tool.js - 写入文件: D:\work\take a message\dist\static\css\swiper2.css
+[2019-03-28T17:48:51.783] [INFO] tool.js - 写入文件: D:\work\take a message\dist\static\css\main.css
+[2019-03-28T17:48:51.802] [INFO] tool.js - 写入文件: D:\work\take a message\dist\static\css\3dflow.css
+[2019-03-28T17:48:51.806] [INFO] tool.js - 读取成功: D:\work\take a message\src\script\idangerous.swiper2.7.6.min.js
+[2019-03-28T17:48:51.806] [INFO] main.js - 使用babel处理并生成文件: D:\work\take a message\dist\static\js\main.js
+[2019-03-28T17:48:51.807] [DEBUG] main.js - 判断是否可以输出Html!
+[2019-03-28T17:48:51.807] [DEBUG] main.js - 准备输出html!
+[2019-03-28T17:48:51.809] [INFO] main.js - Compile successfully, Use time: 2199 msec!
+[2019-03-28T17:48:51.818] [INFO] tool.js - 读取成功: D:\work\take a message\src\script\tagcanvas.js
+[2019-03-28T17:48:51.820] [INFO] tool.js - 写入文件: D:\work\take a message\dist\static\js\swiper2.js
+[2019-03-28T17:48:51.871] [INFO] tool.js - 写入文件: D:\work\take a message\dist\static\js\tagcanvas.js
