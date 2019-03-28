@@ -1,14 +1,14 @@
 <template>
   <div class="swiper-container" @name="swiperContainer">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&1.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&2.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&3.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&4.png&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&5.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&6.png&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&7.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="https://www.baidu.com"><img src="@&8.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&1.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&2.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&3.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&4.png&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&5.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&6.png&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&7.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&8.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
     </div>
     <img class="last swiper-button" src="@&left_icon.png&" @click="last"/>
     <img class="next swiper-button" src="@&right_icon.png&" @click="next"/>
@@ -41,8 +41,9 @@
             modifier : 1.4,
             shadows:true
           },
-          onSlideClick: function(swiper) {
-            console.log(swiper.centerIndex, swiper)
+          onSlideClick: function(swiper, e) {
+            // 排除掉标签
+            if (e.target.classList[0] == 'slide-text') return
             if (swiper.activeIndex == swiper.clickedSlideIndex - 1) {
               const url = swiper.clickedSlide.firstChild.src
               document.getElementById('showBoxImage').src = url
@@ -65,7 +66,8 @@
             modifier : 1,
             roundLengths : true
           },
-          onSlideClick: function(swiper){
+          onSlideClick: function(swiper) {
+            if (e.target.classList[0] == 'slide-text') return
             // .getAttribute("src")
             const url = swiper.clickedSlide.getAttribute("src")
             if (url) {

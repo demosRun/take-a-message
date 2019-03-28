@@ -2,7 +2,7 @@
   <div class="title-bar">
     <div class="content">
       <img class="logo content-item" src="@&logo.png&"/>
-      <div class="link content-item">人民网首页</div>
+      <div class="link content-item"><a href="http://www.people.com.cn/">人民网首页</a></div>
       <div class="clear"></div>
     </div>
   </div>

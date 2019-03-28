@@ -4,7 +4,14 @@ body, html {
   -webkit-overflow-scrolling: touch; /*兼容IOS*/
   overflow-x: hidden;
 }
-
+a {
+  color: rgba(102, 102, 102, 1.00);
+  text-decoration: none;
+}
+a:link {
+  color: unset;
+  text-decoration:none;
+}
 .min {
   width: 100%;
   overflow-x: hidden;
