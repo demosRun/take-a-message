@@ -39,7 +39,7 @@
   width: 76%;
   left: 16%;
   font-weight: bold;
-  top: 75%;
+  top: 73%;
 }
 .text-box {
   position: absolute;

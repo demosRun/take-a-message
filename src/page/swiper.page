@@ -1,7 +1,7 @@
 <template>
   <div class="swiper-container" @name="swiperContainer">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&1.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&1.jpg&"/><div class="slide-text">这是介绍内容这是介绍内容这是介绍内容这是介绍内容这是介绍内容</div><div class="blinker"></div></div>
       <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&2.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
       <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&3.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
       <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&4.png&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
@@ -107,6 +107,8 @@
     color: white;
     font-size: 14px;
     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }
 .swiper-container {

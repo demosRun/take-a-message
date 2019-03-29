@@ -98,6 +98,7 @@ module.exports = {
   },
   // 编译模式配置
   build: {
+    basePath: './',
     // 输出配置
     outPut: {
       // 是否压缩css
@@ -105,7 +106,7 @@ module.exports = {
       // 是否压缩js
       minifyJs: true,
       // 输出文件自动追加版本号，可以用来消除缓存
-      outFileAddVersion: true,
+      addVersion: true,
     }
   }
 }

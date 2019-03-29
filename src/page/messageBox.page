@@ -102,8 +102,8 @@
 }
 .right-box {
   width: calc(100% - 150px);
-  padding: 10px;
-  height: 200px;
+  padding: 10px 0;
+  height: 300px;
   position: absolute;
   top: 0;
   bottom: 0;

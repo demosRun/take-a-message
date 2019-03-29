@@ -65,7 +65,7 @@ body, html, .ox {
   width: 76%;
   left: 16%;
   font-weight: bold;
-  top: 75%;
+  top: 73%;
 }
 
 .ox-banner .text-box {
@@ -150,8 +150,8 @@ body, html, .ox {
 
 .ox-messageBox .right-box {
   width: calc(100% - 150px);
-  padding: 10px;
-  height: 200px;
+  padding: 10px 0;
+  height: 300px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -187,6 +187,8 @@ body, html, .ox {
   color: white;
   font-size: 14px;
   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .ox-swiper .swiper-container {
@@ -319,7 +321,7 @@ body, html, .ox {
 
 .ox-showBox .close-button {
   position: absolute;
-  background-image: url(../resource/close.png);
+  background-image: url('../resource/close.png');
   width: 25px;
   height: 25px;
   right: 80px;

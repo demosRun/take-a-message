@@ -34,7 +34,7 @@ img {
 }
 .close-button {
   position: absolute;
-  background-image: url(../resource/close.png);
+  background-image: url('@&close.png&');
   width: 25px;
   height: 25px;
   right: 80px;
