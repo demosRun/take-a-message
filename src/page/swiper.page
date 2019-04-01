@@ -66,7 +66,7 @@
             modifier : 1,
             roundLengths : true
           },
-          onSlideClick: function(swiper) {
+          onSlideClick: function(swiper, e) {
             if (e.target.classList[0] == 'slide-text') return
             // .getAttribute("src")
             const url = swiper.clickedSlide.getAttribute("src")

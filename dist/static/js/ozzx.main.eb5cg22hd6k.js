@@ -65,7 +65,7 @@ simulateTouch:false,onlyExternal:true,slidesPerView:3,//其他设置
 tdFlow:{rotate:10,stretch:0,depth:100,modifier:1.4,shadows:true},onSlideClick:function onSlideClick(swiper,e){// 排除掉标签
 if(e.target.classList[0]=='slide-text')return;if(swiper.activeIndex==swiper.clickedSlideIndex-1){var url=swiper.clickedSlide.firstChild.src;document.getElementById('showBoxImage').src=url;document.getElementById('showBox').style.top='0';}}});}else{this.data.mySwiper=new Swiper('.swiper-container',{autoplay:3000,loop:true,// 禁用鼠标点击
 simulateTouch:false,slidesPerView:3,//其他设置
-tdFlow:{rotate:10,stretch:80,depth:30,modifier:1,roundLengths:true},onSlideClick:function onSlideClick(swiper){if(e.target.classList[0]=='slide-text')return;// .getAttribute("src")
+tdFlow:{rotate:10,stretch:80,depth:30,modifier:1,roundLengths:true},onSlideClick:function onSlideClick(swiper,e){if(e.target.classList[0]=='slide-text')return;// .getAttribute("src")
 var url=swiper.clickedSlide.getAttribute("src");if(url){window.open(url);}}});}},"last":function last(){this.data.mySwiper.swipePrev();},"next":function next(){this.data.mySwiper.swipeNext();}},"footer":{"created":function created(){}},"showBox":{"created":function created(){},"close":function close(){document.getElementById('showBox').style.top='100%';}}}},"titleBar":{},"copyright":{}},tool:{},entry:"home",state:{},global:{}};// 便捷的获取工具方法
 var $tool=ozzx.tool;var $data={};function switchPage(oldUrlParam,newUrlParam){var oldPage=oldUrlParam.split('&')[0];var newPage=newUrlParam.split('&')[0];// 查找页面跳转前的page页(dom节点)
 // console.log(oldUrlParam)
