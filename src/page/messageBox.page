@@ -60,7 +60,6 @@
   max-width: 1000px;
   margin: auto;
   position: relative;
-  background-image: url('@&h5-check-bg.png&');
   background-size: 100%;
   background-position: -20px;
 }
@@ -83,7 +82,9 @@
   height: 130px;
   line-height: 25px;
   color: rgba(68, 68, 68, 1.00);
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 10px;
 }
 .left-item {
   background-color: #fff5e4;
@@ -111,6 +112,7 @@
   left: 130px;
   color: #444444;
   overflow-y: auto;
+  padding-right: 5px;
 }
 .active {
   background-color: #d83649;
