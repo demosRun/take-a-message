@@ -52,8 +52,5 @@
 .other {
   background-image: url('@&other.png&');
 }
-.min .title {
-  width: 100%;
-  background-size: auto 60%;
-}
+
 </style>

@@ -29,18 +29,7 @@
   background-size: 100%;
   position: relative;
 }
-.min {
-  background-position-y: 25px;
-  background-image: url('@&h5-banana.png&');
-}
-.min .text-box {
-  font-size: 12px;
-  line-height: 20px;
-  width: 76%;
-  left: 16%;
-  font-weight: bold;
-  top: 65%;
-}
+
 .text-box {
   position: absolute;
   top: 65%;

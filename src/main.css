@@ -79,3 +79,24 @@ a:link {
 .min .message-box {
   background-image: url('@&h5-check-bg.png&');
 }
+.min .text-box {
+  font-size: 12px;
+  line-height: 20px;
+  width: 76%;
+  left: 16%;
+  font-weight: bold;
+  top: 65%;
+}
+.min .swiper-slide .slide-text {
+  line-height: 25px;
+  font-size: 12px;
+}
+.min .title {
+  width: 100%;
+  background-size: auto 60%;
+}
+
+.min .ox-banner {
+  background-position-y: 25px;
+  background-image: url('@&h5-banana.png&');
+}
