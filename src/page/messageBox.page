@@ -82,8 +82,7 @@
   height: 130px;
   line-height: 25px;
   color: rgba(68, 68, 68, 1.00);
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: hidden;
   padding-right: 10px;
 }
 .left-item {

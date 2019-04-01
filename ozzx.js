@@ -98,7 +98,7 @@ module.exports = {
   },
   // 编译模式配置
   build: {
-    basePath: './message/',
+    basePath: './',
     // 输出配置
     outPut: {
       // 是否压缩css

@@ -1,541 +1,69 @@
-10:48:42.202 DEBUG 获取到配置信息: 
-10:48:42.202 DEBUG {"basePath":"./message/","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true},"root":"/src","entry":"home","title":"页面","outFolder":"./dist","resourceFolder":"./src/resource","headList":[{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}],"scriptList":[{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}],"styleList":[{"name":"swiper2","src":"./src/style/idangerous.swiper2.7.6.css"},{"name":"3dflow","src":"./src/style/idangerous.swiper.3dflow.css"},{"name":"main","src":"./src/main.css"}],"pageList":[{"main":true,"isPage":true,"name":"home","src":"./src/page/home.page","temple":"<temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>"}],"dev":{"watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"outFileAddVersion":false},"serverPort":8080,"server":true,"autoReload":true},"build":{"basePath":"./message/","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true}}} 
-10:48:42.202 INFO  --------------------------- 开始编译 --------------------------- 
-10:48:42.202 INFO  程序运行目录: D:\work\take a message 
-10:48:42.202 INFO  首次启动! 
-10:48:42.202 INFO  生成版本号: eb5cg22hd6k 
-10:48:42.209 INFO  清理资源文件夹: D:\work\take a message\dist\static 
-10:48:42.209 INFO  文件夹不存在: D:\work\take a message\dist\static 
-10:48:42.210 INFO  创建文件夹: D:\work\take a message\dist\static 
-10:48:42.210 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html 
-10:48:42.210 DEBUG 读取网页标题: 页面 
-10:48:42.210 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}] 
-10:48:42.231 DEBUG 处理模板: ./src/page/topBar.page 
-10:48:42.246 DEBUG 处理模板: ./src/page/banner.page 
-10:48:42.251 DEBUG 处理模板: ./src/page/tagCloud.page 
-10:48:42.365 DEBUG 处理模板: ./src/page/messageBox.page 
-10:48:42.381 DEBUG 处理模板: ./src/page/swiper.page 
-10:48:42.405 DEBUG 处理模板: ./src/page/footer.page 
-10:48:42.421 DEBUG 处理模板: http://cunchu.site/ozzx/template/copyright.page 
-10:48:42.670 DEBUG 处理模板: ./src/page/showImageBox.page 
-10:48:42.705 DEBUG 页面中使用到的动画列表: [object Set] 
-10:48:42.707 INFO  文件夹不存在: D:\work\take a message\dist\static\resource 
-10:48:42.707 INFO  创建文件夹: D:\work\take a message\dist\static\resource 
-10:48:42.727 INFO  文件夹不存在: D:\work\take a message\dist\static\css 
-10:48:42.727 INFO  创建文件夹: D:\work\take a message\dist\static\css 
-10:48:42.727 INFO  写文件: D:\work\take a message\dist\static\css\ozzx.animation.eb5cg22hd6k.css 
-10:48:42.727 DEBUG 页面中不包含切换动画! 
-10:48:43.601 INFO  文件夹不存在: D:\work\take a message\dist\static\js 
-10:48:43.602 INFO  创建文件夹: D:\work\take a message\dist\static\js 
-10:48:43.603 DEBUG 处理引用脚本: [{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}] 
-10:48:43.603 DEBUG 外部脚本数量: 4 
-10:48:43.603 DEBUG 处理脚本: main 
-10:48:43.603 DEBUG 使用bable处理脚本! 
-10:48:43.604 DEBUG 处理脚本: tagcanvas 
-10:48:43.604 DEBUG 不使用bable处理脚本! 
-10:48:43.604 INFO  读取文件: D:\work\take a message\src\script\tagcanvas.js 
-10:48:43.604 DEBUG 处理脚本: swiper2 
-10:48:43.604 DEBUG 不使用bable处理脚本! 
-10:48:43.604 INFO  读取文件: D:\work\take a message\src\script\idangerous.swiper2.7.6.min.js 
-10:48:43.604 DEBUG 处理脚本: 3dflow 
-10:48:43.604 DEBUG 不使用bable处理脚本! 
-10:48:43.604 INFO  读取文件: D:\work\take a message\src\script\idangerous.swiper.3dflow.js 
-10:48:43.806 INFO  读取文件: D:\work\take a message\src\style\idangerous.swiper2.7.6.css 
-10:48:43.806 INFO  读取文件: D:\work\take a message\src\style\idangerous.swiper.3dflow.css 
-10:48:43.806 INFO  读取文件: D:\work\take a message\src\main.css 
-10:48:43.807 DEBUG 判断是否可以输出Html! 
-10:48:43.807 DEBUG 还有没有经过处理的资源! 
-10:48:43.807 DEBUG <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <title>页面</title>
-    <!-- 页面的元信息 -->
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
-    <!-- 页面主样式文件 -->
-    <style>
-body, html, .ox {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* 清除浮动 */
-.clear {
-  clear: both;
-}
-
-.ozzx-animation {
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-.ox-titleBar .content {
-  width: 1000px;
-  height: 40px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-.ox-titleBar .logo {
-  margin: 5px 10px;
-}
-
-.ox-titleBar .title-bar {
-  height: 40px;
-  line-height: 40px;
-  position: relative;
-}
-
-.ox-titleBar .content-item {
-  float: left;
-}
-
-.ox-titleBar .link {
-  color: rgba(102, 102, 102, 1.00);
-  font-size: 14px;
-  margin: 0 10px;
-}.ox-banner .banner-box {
-  background-image: url('./message/static/resource/banana.png');
-  height: 800px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-}
-
-.ox-banner .min {
-  background-position-y: 25px;
-  background-image: url('./message/static/resource/h5-banana.png');
-}
-
-.ox-banner .min .text-box {
-  font-size: 12px;
-  line-height: 20px;
-  width: 76%;
-  left: 16%;
-  font-weight: bold;
-  top: 65%;
-}
-
-.ox-banner .text-box {
-  position: absolute;
-  top: 65%;
-  color: rgba(137, 68, 0, 1.00);
-  width: 35%;
-  left: 44%;
-  font-size: 17px;
-  line-height: 26px;
-}.ox-tagCloud canvas {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  margin: auto;
-}
-
-.ox-tagCloud .rank-1 {
-  font-size: 14px;
-}
-
-.ox-tagCloud .rank-2 {
-  font-size: 20px;
-}
-
-.ox-tagCloud .rank-3 {
-  font-size: 28px;
-}
-
-.ox-tagCloud .tag-cloud-box {
-  position: relative;
-}.ox-messageBox .message-box {
-  max-width: 1000px;
-  margin: auto;
-  position: relative;
-  background-size: 100%;
-  background-position: -20px;
-}
-
-.ox-messageBox .message-item {
-  float: left;
-  width: 50%;
-  border-left: 5px solid #f6f6f6;
-  box-sizing: border-box;
-  padding: 0 20px;
-  margin: 10px 0;
-  height: 180px;
-}
-
-.ox-messageBox .message-box-title {
-  color: rgba(237, 112, 0, 1.00);
-  font-size: 24px;
-  line-height: 50px;
-  height: 50px;
-}
-
-.ox-messageBox .message-box-text {
-  height: 130px;
-  line-height: 25px;
-  color: rgba(68, 68, 68, 1.00);
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding-right: 10px;
-}
-
-.ox-messageBox .left-item {
-  background-color: #fff5e4;
-  color: #d93a4b;
-  width: 100px;
-  text-align: center;
-  line-height: 30px;
-  margin: 10px 5px;
-  font-weight: bold;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: width 0.5s;
-}
-
-.ox-messageBox .left-box,
-.ox-messageBox .right-box {
-  float: left;
-}
-
-.ox-messageBox .right-box {
-  width: calc(100% - 150px);
-  padding: 10px 0;
-  height: 300px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  left: 130px;
-  color: #444444;
-  overflow-y: auto;
-  padding-right: 5px;
-}
-
-.ox-messageBox .active {
-  background-color: #d83649;
-  color: white;
-  width: 120px;
-}.ox-swiper .swiper-slide {
-  height: 600px;
-  width: 400px;
-  overflow: hidden;
-  background-color: chartreuse;
-  position: relative;
-}
-
-.ox-swiper .swiper-slide img {
-  width: 100%;
-}
-
-.ox-swiper .swiper-slide .slide-text {
-  position: absolute;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  text-align: center;
-  line-height: 40px;
-  color: white;
-  font-size: 14px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.ox-swiper .swiper-container {
-  width: 100%;
-  max-width: 1000px;
-  height: 600px;
-  margin: 30px auto;
-  position: relative;
-}
-
-.ox-swiper .swiper-button {
-  width: 30px;
-  height: 77px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  cursor: pointer;
-}
-
-.ox-swiper .blinker {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.ox-swiper .last {
-  left: 23%;
-}
-
-.ox-swiper .next {
-  right: 23%;
-}
-
-.ox-swiper .swiper-slide-active + .swiper-slide .blinker {
-  display: none;
-}
-
-.ox-swiper .min .swiper-slide .slide-text {
-  line-height: 25px;
-  font-size: 12px;
-}.ox-footer .footer-box {
-  height: 220px;
-  background-color: #ebf4ff;
-}
-
-.ox-footer .content {
-  max-width: 1000px;
-  height: 219px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  border-bottom: 1px solid #dddddd;
-}
-
-.ox-footer .content-item {
-  float: left;
-}
-
-.ox-footer .qr-box-item {
-  float: right;
-  margin: 20px 5px;
-}
-
-.ox-footer .logo {
-  height: 100%;
-  width: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url('./message/static/resource/difang-logo.png');
-}
-
-.ox-footer .qr-box {
-  height: 160px;
-  margin: 30px 0;
-  width: 50%;
-}
-
-.ox-footer .qr-box img {
-  display: block;
-  width: 100px;
-  height: 100px;
-}
-
-.ox-footer .qr-box .text {
-  color: #4c4c4c;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}.ox-copyright .copyright-box {
-  height: 170px;
-  color: #727272;
-  font-size: 12px;
-  background-color: #ebf5ff;
-  position: relative;
-}
-
-.ox-copyright .copyright-box .copyright {
-  max-width: 500px;
-  height: 100px;
-  line-height: 20px;
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}.ox-showBox .show-box {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 100%;
-  margin: auto;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 10;
-  overflow: auto;
-  transition: top 0.5s linear;
-  padding: 10%;
-}
-
-.ox-showBox img {
-  width: 80%;
-}
-
-.ox-showBox .close-button {
-  position: absolute;
-  background-image: url('./message/static/resource/close.png');
-  width: 25px;
-  height: 25px;
-  right: 80px;
-  top: 20px;
-  background-size: 25px;
-}.ox-home .main-box {
-  opacity: 0;
-}
-
-.ox-home .title {
-  height: 60px;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 16px 0;
-}
-
-.ox-home .care {
-  background-image: url('./message/static/resource/care.png');
-}
-
-.ox-home .discuss {
-  background-image: url('./message/static/resource/discuss.png');
-}
-
-.ox-home .other {
-  background-image: url('./message/static/resource/other.png');
-}
-
-.ox-home .min .title {
-  width: 100%;
-  background-size: auto 60%;
-}
-</style>
-    <!-- 附属css文件 -->
-    <link rel="stylesheet" href="./message/static/css/swiper2.css">
-    <link rel="stylesheet" href="./message/static/css/3dflow.css">
-    <link rel="stylesheet" href="./message/static/css/main.css">
-    <link rel="stylesheet" href="./message/static/css/ozzx.animation.eb5cg22hd6k.css">
-  </head>
-  <body>
-    <!-- 页面区域 -->
-    <div class="ox-home ox" id="ox-home"><div class="main-box" @name="mainBox">
-    <div class="ox-titleBar"><div class="title-bar">
-    <div class="content">
-      <img class="logo content-item" src="@&amp;logo.png&amp;">
-      <div class="link content-item"><a href="http://www.people.com.cn/">人民网首页</a></div>
-      <div class="clear"></div>
-    </div>
-  </div>
-</div>
-    <div class="ox-banner"><div class="banner-box" @name="bannerBox">
-    <div class="text-box">编者按：今年网友最关心哪些民生问题？要脱贫，要创业，要天更蓝，期待更有质量的教育……<br>在人民网推出的“2019两会来了 我托书记省长捎句话”活动中，各地网友以25万条留言，说出了他们的看法与期待，一起来看看吧！</div>
-  </div>
-</div>
-    <div class="title care"></div>
-    <div class="ox-tagCloud"><div id="myCanvasContainer" class="tag-cloud-box">
-    <canvas width="1000" height="400" id="myCanvas">
-      <p>Anything in here will be replaced on browsers that support the canvas element</p>
-    </canvas>
-  </div>
-  <div id="tags" class="tag-box">
-    <ul>
-      <li class="rank-3"><a href="/#">医疗服务</a></li>
-      <li class="rank-1"><a href="/#">农村改革</a></li>
-      <li class="rank-3"><a href="/#">城镇住房</a></li>
-      <li class="rank-2"><a href="/#">污染防治</a></li>
-      <li class="rank-4"><a href="/#">百姓收入</a></li>
-      <li class="rank-4"><a href="/#">营商环境</a></li>
-      <li class="rank-2"><a href="/#">城市交通</a></li>
-      <li class="rank-2"><a href="/#">新型城镇化</a></li>
-      <li class="rank-3"><a href="/#">区域协调</a></li>
-      <li class="rank-1"><a href="/#">政务服务</a></li>
-      <li class="rank-4"><a href="/#">创新创业</a></li>
-      <li class="rank-3"><a href="/#">教育保障</a></li>
-      <li class="rank-4"><a href="/#">精准扶贫</a></li>
-      <li class="rank-2"><a href="/#">乡村振兴</a></li>
-      <li class="rank-1"><a href="/#">文化传承</a></li>
-      <li class="rank-2"><a href="/#">绿色发展</a></li>
-      <li class="rank-3"><a href="/#">城市发展</a></li>
-      <li class="rank-4"><a href="/#">休闲旅游</a></li>
-      <li class="rank-2"><a href="/#">财政支出</a></li>
-      <li class="rank-1"><a href="/#">网络环境</a></li>
-    </ul>
-  </div>
-</div>
-    <div class="title discuss"></div>
-    <div class="ox-messageBox"><div class="message-box" @name="messageBox">
-  </div>
-</div>
-    <div class="title other"></div>
-    <div class="ox-swiper"><div class="swiper-container" @name="swiperContainer">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&amp;1.jpg&amp;"><div class="slide-text">这是介绍内容这是介绍内容这是介绍内容这是介绍内容这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&amp;2.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&amp;3.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&amp;4.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&amp;5.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&amp;6.png&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&amp;7.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&amp;8.jpg&amp;"><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-    </div>
-    <img class="last swiper-button" src="@&amp;left_icon.png&amp;" @click="last" template="swiper">
-    <img class="next swiper-button" src="@&amp;right_icon.png&amp;" @click="next" template="swiper">
-  </div>
-</div>
-    <div class="ox-footer"><footer class="footer-box">
-    <div class="content">
-      <div class="logo content-item"></div>
-      <div class="qr-box content-item">
-        <div class="qr-box-item left">
-          <img src="@&amp;qr.png&amp;">
-          <div class="text">微信公众号</div>
-        </div>
-        <div class="qr-box-item middle">
-          <img src="@&amp;qr.png&amp;">
-          <div class="text">微信小程序</div>
-        </div>
-        <div class="qr-box-item right">
-          <img src="@&amp;qr.png&amp;">
-          <div class="text">客户端下载</div>
-        </div>
-        <div class="clear"></div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </footer>
-</div>
-    <div class="ox-copyright"><div class="copyright-box">
-    <div class="copyright">
-      <p>人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用</p>
-      <p>Copyright © 1997-2018 by www.people.com.cn. all rights reserved</p>
-    </div>
-  </div>
-</div>
-    <div class="ox-showBox"><div class="show-box" id="showBox">
-    <img src="@&amp;1.jpg&amp;" id="showBoxImage">
-    <div class="close-button" @click="close" template="showBox"></div>
-  </div>
-</div>
-  </div>
-</div>
-    <!-- script-output -->
-  </body>
-</html> 
-10:48:43.837 INFO  读取成功: D:\work\take a message\src\style\idangerous.swiper2.7.6.css 
-10:48:43.838 INFO  读取成功: D:\work\take a message\src\script\idangerous.swiper.3dflow.js 
-10:48:43.838 INFO  读取成功: D:\work\take a message\src\style\idangerous.swiper.3dflow.css 
-10:48:43.838 INFO  读取成功: D:\work\take a message\src\main.css 
-10:48:44.008 INFO  写入文件: D:\work\take a message\dist\static\js\3dflow.js 
-10:48:44.009 INFO  使用babel处理并生成文件: D:\work\take a message\dist\static\js\main.js 
-10:48:44.009 DEBUG 判断是否可以输出Html! 
-10:48:44.009 DEBUG 准备输出html! 
-10:48:44.012 INFO  写入文件: D:\work\take a message\dist\static\css\swiper2.css 
-10:48:44.012 INFO  写入文件: D:\work\take a message\dist\static\css\3dflow.css 
-10:48:44.012 INFO  写入文件: D:\work\take a message\dist\static\css\main.css 
-10:48:44.046 INFO  读取成功: D:\work\take a message\src\script\idangerous.swiper2.7.6.min.js 
-10:48:44.049 INFO  读取成功: D:\work\take a message\src\script\tagcanvas.js 
-10:48:44.125 INFO  写入文件: D:\work\take a message\dist\static\js\swiper2.js 
-10:48:44.144 INFO  写入文件: D:\work\take a message\dist\static\js\tagcanvas.js 
+15:48:42.260 DEBUG 获取到配置信息: 
+15:48:42.260 DEBUG {"watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"outFileAddVersion":false},"serverPort":8080,"server":true,"autoReload":true,"root":"/src","entry":"home","title":"页面","outFolder":"./dist","resourceFolder":"./src/resource","headList":[{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}],"scriptList":[{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}],"styleList":[{"name":"swiper2","src":"./src/style/idangerous.swiper2.7.6.css"},{"name":"3dflow","src":"./src/style/idangerous.swiper.3dflow.css"},{"name":"main","src":"./src/main.css"}],"pageList":[{"main":true,"isPage":true,"name":"home","src":"./src/page/home.page","temple":"<temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>"}],"dev":{"watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"outFileAddVersion":false},"serverPort":8080,"server":true,"autoReload":true},"build":{"basePath":"./","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true}}} 
+15:48:42.260 INFO  --------------------------- 开始编译 --------------------------- 
+15:48:42.260 INFO  程序运行目录: D:\work\take a message 
+15:48:42.260 INFO  首次启动! 
+15:48:42.260 INFO  生成版本号: lz8k18v4ef 
+15:48:42.265 INFO  清理资源文件夹: D:\work\take a message\dist\static 
+15:48:42.265 INFO  文件夹不存在: D:\work\take a message\dist\static 
+15:48:42.265 INFO  创建文件夹: D:\work\take a message\dist\static 
+15:48:42.265 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html 
+15:48:42.265 DEBUG 读取网页标题: 页面 
+15:48:42.265 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}] 
+15:48:42.284 DEBUG 处理模板: ./src/page/topBar.page 
+15:48:42.296 DEBUG 处理模板: ./src/page/banner.page 
+15:48:42.300 DEBUG 处理模板: ./src/page/tagCloud.page 
+15:48:42.400 DEBUG 处理模板: ./src/page/messageBox.page 
+15:48:42.402 DEBUG 处理模板: ./src/page/swiper.page 
+15:48:42.431 DEBUG 处理模板: ./src/page/footer.page 
+15:48:42.442 DEBUG 处理模板: http://cunchu.site/ozzx/template/copyright.page 
+15:48:42.774 DEBUG 处理模板: ./src/page/showImageBox.page 
+15:48:42.787 DEBUG 页面中使用到的动画列表: [object Set] 
+15:48:42.788 INFO  文件夹不存在: D:\work\take a message\dist\static\resource 
+15:48:42.788 INFO  创建文件夹: D:\work\take a message\dist\static\resource 
+15:48:42.803 INFO  文件夹不存在: D:\work\take a message\dist\static\css 
+15:48:42.803 INFO  创建文件夹: D:\work\take a message\dist\static\css 
+15:48:42.803 INFO  写文件: D:\work\take a message\dist\static\css\ozzx.animation.css 
+15:48:42.804 DEBUG 页面中不包含切换动画! 
+15:48:43.609 INFO  文件夹不存在: D:\work\take a message\dist\static\js 
+15:48:43.609 INFO  创建文件夹: D:\work\take a message\dist\static\js 
+15:48:43.610 INFO  读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
+15:48:43.610 DEBUG 处理引用脚本: [{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}] 
+15:48:43.610 DEBUG 外部脚本数量: 4 
+15:48:43.610 DEBUG 处理脚本: main 
+15:48:43.610 DEBUG 使用bable处理脚本! 
+15:48:43.611 DEBUG 处理脚本: tagcanvas 
+15:48:43.611 DEBUG 不使用bable处理脚本! 
+15:48:43.611 INFO  读取文件: D:\work\take a message\src\script\tagcanvas.js 
+15:48:43.611 DEBUG 处理脚本: swiper2 
+15:48:43.611 DEBUG 不使用bable处理脚本! 
+15:48:43.611 INFO  读取文件: D:\work\take a message\src\script\idangerous.swiper2.7.6.min.js 
+15:48:43.611 DEBUG 处理脚本: 3dflow 
+15:48:43.611 DEBUG 不使用bable处理脚本! 
+15:48:43.611 INFO  读取文件: D:\work\take a message\src\script\idangerous.swiper.3dflow.js 
+15:48:43.611 INFO  监控文件夹变化: D:\work\take a message\src 
+15:48:43.623 INFO  服务器运行在: 127.0.0.1:8080 
+15:48:43.819 DEBUG 需要经过特殊处理的css: [[".ox-titleBar .title-bar ",".ox-titleBar "],[".ox-banner .banner-box ",".ox-banner "],[".ox-messageBox .message-box ",".ox-messageBox "],[".ox-swiper .swiper-container ",".ox-swiper "],[".ox-footer .footer-box ",".ox-footer "],[".ox-copyright .copyright-box ",".ox-copyright "],[".ox-showBox .show-box ",".ox-showBox "],[".ox-home .main-box ",".ox-home "]] 
+15:48:43.819 INFO  读取文件: D:\work\take a message\src\style\idangerous.swiper2.7.6.css 
+15:48:43.819 INFO  读取文件: D:\work\take a message\src\style\idangerous.swiper.3dflow.css 
+15:48:43.820 INFO  读取文件: D:\work\take a message\src\main.css 
+15:48:43.820 DEBUG 判断是否可以输出Html! 
+15:48:43.820 DEBUG 还有没有经过处理的资源! 
+15:48:43.857 INFO  读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
+15:48:43.858 INFO  读取成功: D:\work\take a message\src\script\idangerous.swiper.3dflow.js 
+15:48:43.858 INFO  读取成功: D:\work\take a message\src\style\idangerous.swiper.3dflow.css 
+15:48:43.858 INFO  读取成功: D:\work\take a message\src\main.css 
+15:48:43.858 INFO  读取成功: D:\work\take a message\src\style\idangerous.swiper2.7.6.css 
+15:48:43.945 INFO  写入文件: D:\work\take a message\dist\static\css\3dflow.css 
+15:48:43.945 INFO  写入文件: D:\work\take a message\dist\static\js\3dflow.js 
+15:48:43.945 INFO  写入文件: D:\work\take a message\dist\static\js\autoReload.js 
+15:48:43.945 INFO  使用babel处理并生成文件: D:\work\take a message\dist\static\js\main.js 
+15:48:43.945 DEBUG 判断是否可以输出Html! 
+15:48:43.945 DEBUG 准备输出html! 
+15:48:43.948 INFO  发送重新页面需要刷新命令! 
+15:48:43.949 INFO  写入文件: D:\work\take a message\dist\static\css\main.css 
+15:48:43.949 INFO  写入文件: D:\work\take a message\dist\static\css\swiper2.css 
+15:48:43.975 INFO  读取成功: D:\work\take a message\src\script\idangerous.swiper2.7.6.min.js 
+15:48:43.978 INFO  读取成功: D:\work\take a message\src\script\tagcanvas.js 
+15:48:43.980 INFO  写入文件: D:\work\take a message\dist\static\js\swiper2.js 
+15:48:44.056 INFO  写入文件: D:\work\take a message\dist\static\js\tagcanvas.js 

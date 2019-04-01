@@ -53,10 +53,10 @@
         stretchX: 1.8,
         dragControl: true,
         weightGradient: {
-          0:'#a9a9a9',
-          0.33:'#a78563',
-          0.66:'#f17e50',
-          1:'#f17e50'
+          0:'#827e7e',
+          0.33:'#7b6045',
+          0.66:'#b5522a',
+          1:'#632106'
         }
       })
       TagCanvas.SetSpeed('myCanvas', [-0.05, -0.05])
