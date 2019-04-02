@@ -42,12 +42,6 @@
         margin: 5px 10px;
       }
       
-      .ox-titleBar {
-        height: 40px;
-        line-height: 40px;
-        position: relative;
-      }
-      
       .ox-titleBar .content-item {
         float: left;
       }
@@ -244,8 +238,8 @@
       }
       
       .ox-footer .logo {
-        height: 100%;
         width: 50%;
+        height: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-image: url('./static/resource/difang-logo.png');
@@ -255,6 +249,7 @@
         height: 160px;
         margin: 30px 0;
         width: 50%;
+        position: relative;
       }
       
       .ox-footer .qr-box img {
@@ -268,6 +263,15 @@
         text-align: center;
         line-height: 20px;
         font-size: 14px;
+      }
+      
+      .ox-footer .qr-item {
+        width: 330px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
       }
       .ox-copyright {
         height: 170px;
@@ -299,7 +303,7 @@
         background-color: rgba(0, 0, 0, 0.7);
         z-index: 10;
         overflow: auto;
-        transition: top 0.5s linear;
+        transition: top 0.2s linear;
         padding: 10%;
       }
       
@@ -308,12 +312,13 @@
       }
       
       .ox-showBox .close-button {
-        position: absolute;
+        position: fixed;
         background-image: url('./static/resource/close.png');
         width: 25px;
         height: 25px;
-        right: 65px;
+        right: 2%;
         top: 20px;
+        display: none;
         background-size: 25px;
       }
       .ox-home {
@@ -356,7 +361,7 @@
     </div>
   </div>
     <div class="banner-box ox-banner" @name="bannerBox">
-    <div class="text-box">编者按：今年网友最关心哪些民生问题？要脱贫，要创业，要天更蓝，期待更有质量的教育……<br>在人民网推出的“2019两会来了 我托书记省长捎句话”活动中，各地网友以25万条留言，说出了他们的看法与期待，一起来看看吧！</div>
+    <div class="text-box">今年网友最关心哪些民生问题？要脱贫，要创业，要天更蓝，期待更有质量的教育……两会期间，各地网友通过人民网《地方领导留言板》说出了他们的看法与期待，一起来看看吧！</div>
   </div>
     <div class="title care"></div>
     <session class="ox-tagCloud"><div id="myCanvasContainer" class="tag-cloud-box">
@@ -411,19 +416,21 @@
     <div class="content">
       <div class="logo content-item"></div>
       <div class="qr-box content-item">
-        <div class="qr-box-item left">
-          <img src="./static/resource/qr.png">
-          <div class="text">微信小程序</div>
+        <div class="qr-item">
+          <div class="qr-box-item left">
+            <img src="./static/resource/xcx.png">
+            <div class="text">微信小程序</div>
+          </div>
+          <div class="qr-box-item middle">
+            <img src="./static/resource/gzh.png">
+            <div class="text">微信公众号</div>
+          </div>
+          <div class="qr-box-item right">
+            <img src="./static/resource/khd.png">
+            <div class="text">客户端下载</div>
+          </div>
+          <div class="clear"></div>
         </div>
-        <div class="qr-box-item middle">
-          <img src="./static/resource/qr.png">
-          <div class="text">微信公众号</div>
-        </div>
-        <div class="qr-box-item right">
-          <img src="./static/resource/qr.png">
-          <div class="text">客户端下载</div>
-        </div>
-        <div class="clear"></div>
       </div>
       <div class="clear"></div>
     </div>
@@ -436,7 +443,7 @@
   </div>
     <div class="show-box ox-showBox" id="showBox">
     <img src="./static/resource/1.jpg" id="showBoxImage">
-    <div class="close-button" @click="close" template="showBox"></div>
+    <div class="close-button" id="closeButton" @click="close" template="showBox"></div>
   </div>
   </div>
     <!-- 页面脚本 -->

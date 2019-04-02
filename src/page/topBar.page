@@ -20,11 +20,6 @@
 .logo {
   margin: 5px 10px;
 }
-.title-bar {
-  height: 40px;
-  line-height: 40px;
-  position: relative;
-}
 .content-item {
   float: left;
 }

@@ -30,10 +30,17 @@ a:link {
   width: 100%;
   overflow-x: hidden;
 }
+.main-box {
+  position: relative;
+}
 .ox-titleBar {
   position: absolute;
   background-color: white;
   width: 100%;
+  top: 0;
+  left: 0;
+  height: 40px;
+  line-height: 40px;
   z-index: 9;
 }
 .min .ox-footer .logo {

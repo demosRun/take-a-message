@@ -383,6 +383,7 @@ window.ozzx = {
                   if (swiper.activeIndex == swiper.clickedSlideIndex - 1) {
                     var url = swiper.clickedSlide.children[0].src;
                     document.getElementById('showBoxImage').src = url;
+                    document.getElementById('closeButton').style.display = 'block';
                     document.getElementById('showBox').style.top = '0';
                   }
                 }
@@ -425,6 +426,7 @@ window.ozzx = {
         "showBox": {
           "created": function created() {},
           "close": function close() {
+            document.getElementById('closeButton').style.display = 'none';
             document.getElementById('showBox').style.top = '100%';
           }
         }
