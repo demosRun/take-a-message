@@ -1,69 +1,62 @@
-16:29:53.050 DEBUG 获取到配置信息: 
-16:29:53.050 DEBUG {"watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"outFileAddVersion":false},"serverPort":8080,"server":true,"autoReload":true,"root":"/src","entry":"home","title":"页面","outFolder":"./dist","resourceFolder":"./src/resource","headList":[{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}],"scriptList":[{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}],"styleList":[{"name":"swiper2","src":"./src/style/idangerous.swiper2.7.6.css"},{"name":"3dflow","src":"./src/style/idangerous.swiper.3dflow.css"},{"name":"main","resource":true,"src":"./src/main.css"}],"pageList":[{"main":true,"isPage":true,"name":"home","src":"./src/page/home.page","temple":"<temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>"}],"dev":{"watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"outFileAddVersion":false},"serverPort":8080,"server":true,"autoReload":true},"build":{"basePath":"./","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true}}} 
-16:29:53.050 INFO  --------------------------- 开始编译 --------------------------- 
-16:29:53.050 INFO  程序运行目录: D:\work\take a message 
-16:29:53.050 INFO  首次启动! 
-16:29:53.050 INFO  生成版本号: qxogo0s19 
-16:29:53.056 INFO  清理资源文件夹: D:\work\take a message\dist\static 
-16:29:53.056 INFO  文件夹不存在: D:\work\take a message\dist\static 
-16:29:53.056 INFO  创建文件夹: D:\work\take a message\dist\static 
-16:29:53.056 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html 
-16:29:53.057 DEBUG 读取网页标题: 页面 
-16:29:53.057 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}] 
-16:29:53.076 DEBUG 处理模板: ./src/page/topBar.page 
-16:29:53.087 DEBUG 处理模板: ./src/page/banner.page 
-16:29:53.091 DEBUG 处理模板: ./src/page/tagCloud.page 
-16:29:53.205 DEBUG 处理模板: ./src/page/messageBox.page 
-16:29:53.207 DEBUG 处理模板: ./src/page/swiper.page 
-16:29:53.224 DEBUG 处理模板: ./src/page/footer.page 
-16:29:53.236 DEBUG 处理模板: http://cunchu.site/ozzx/template/copyright.page 
-16:29:54.820 DEBUG 处理模板: ./src/page/showImageBox.page 
-16:29:54.834 DEBUG 页面中使用到的动画列表: [object Set] 
-16:29:54.835 INFO  文件夹不存在: D:\work\take a message\dist\static\resource 
-16:29:54.835 INFO  创建文件夹: D:\work\take a message\dist\static\resource 
-16:29:54.849 INFO  工程中只有一个页面! 
-16:29:54.850 INFO  文件夹不存在: D:\work\take a message\dist\static\css 
-16:29:54.850 INFO  创建文件夹: D:\work\take a message\dist\static\css 
-16:29:54.850 INFO  写文件: D:\work\take a message\dist\static\css\ozzx.animation.css 
-16:29:54.850 DEBUG 页面中不包含切换动画! 
-16:29:55.715 INFO  文件夹不存在: D:\work\take a message\dist\static\js 
-16:29:55.715 INFO  创建文件夹: D:\work\take a message\dist\static\js 
-16:29:55.716 INFO  读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
-16:29:55.717 DEBUG 处理引用脚本: [{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}] 
-16:29:55.717 DEBUG 外部脚本数量: 4 
-16:29:55.717 DEBUG 处理脚本: main 
-16:29:55.717 DEBUG 使用bable处理脚本! 
-16:29:55.717 DEBUG 处理脚本: tagcanvas 
-16:29:55.717 DEBUG 不使用bable处理脚本! 
-16:29:55.717 INFO  读取文件: D:\work\take a message\src\script\tagcanvas.js 
-16:29:55.717 DEBUG 处理脚本: swiper2 
-16:29:55.717 DEBUG 不使用bable处理脚本! 
-16:29:55.717 INFO  读取文件: D:\work\take a message\src\script\idangerous.swiper2.7.6.min.js 
-16:29:55.717 DEBUG 处理脚本: 3dflow 
-16:29:55.717 DEBUG 不使用bable处理脚本! 
-16:29:55.717 INFO  读取文件: D:\work\take a message\src\script\idangerous.swiper.3dflow.js 
-16:29:55.717 INFO  监控文件夹变化: D:\work\take a message\src 
-16:29:55.728 INFO  服务器运行在: 127.0.0.1:8080 
-16:29:55.903 DEBUG 需要经过特殊处理的css: [[".ox-titleBar .title-bar ",".ox-titleBar "],[".ox-banner .banner-box ",".ox-banner "],[".ox-messageBox .message-box ",".ox-messageBox "],[".ox-swiper .swiper-container ",".ox-swiper "],[".ox-footer .footer-box ",".ox-footer "],[".ox-copyright .copyright-box ",".ox-copyright "],[".ox-showBox .show-box ",".ox-showBox "],[".ox-home .main-box ",".ox-home "]] 
-16:29:55.904 INFO  读取文件: D:\work\take a message\src\style\idangerous.swiper2.7.6.css 
-16:29:55.904 INFO  读取文件: D:\work\take a message\src\style\idangerous.swiper.3dflow.css 
-16:29:55.904 DEBUG 判断是否可以输出Html! 
-16:29:55.904 DEBUG 还有没有经过处理的资源! 
-16:29:55.938 INFO  读取成功: D:\work\take a message\src\script\idangerous.swiper.3dflow.js 
-16:29:55.938 INFO  读取成功: D:\work\take a message\src\style\idangerous.swiper2.7.6.css 
-16:29:55.938 INFO  读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
-16:29:55.938 INFO  读取成功: D:\work\take a message\src\main.css 
-16:29:55.939 INFO  读取成功: D:\work\take a message\src\style\idangerous.swiper.3dflow.css 
-16:29:56.036 INFO  使用babel处理并生成文件: D:\work\take a message\dist\static\js\main.js 
-16:29:56.036 DEBUG 判断是否可以输出Html! 
-16:29:56.036 DEBUG 准备输出html! 
-16:29:56.041 INFO  发送重新页面需要刷新命令! 
-16:29:56.041 INFO  写入文件: D:\work\take a message\dist\static\js\3dflow.js 
-16:29:56.070 INFO  写入文件: D:\work\take a message\dist\static\js\autoReload.js 
-16:29:56.070 INFO  写入文件: D:\work\take a message\dist\static\css\swiper2.css 
-16:29:56.071 INFO  写入文件: D:\work\take a message\dist\static\css\main.css 
-16:29:56.071 INFO  写入文件: D:\work\take a message\dist\static\css\3dflow.css 
-16:29:56.080 INFO  读取成功: D:\work\take a message\src\script\idangerous.swiper2.7.6.min.js 
-16:29:56.083 INFO  读取成功: D:\work\take a message\src\script\tagcanvas.js 
-16:29:56.204 INFO  写入文件: D:\work\take a message\dist\static\js\tagcanvas.js 
-16:29:56.204 INFO  写入文件: D:\work\take a message\dist\static\js\swiper2.js 
+16:58:13.506 DEBUG 获取到配置信息: 
+16:58:13.507 DEBUG {"basePath":"./","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true},"root":"/src","entry":"home","title":"页面","outFolder":"./dist","resourceFolder":"./src/resource","headList":[{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}],"scriptList":[{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}],"styleList":[{"name":"swiper2","src":"./src/style/idangerous.swiper2.7.6.css"},{"name":"3dflow","src":"./src/style/idangerous.swiper.3dflow.css"},{"name":"main","resource":true,"src":"./src/main.css"}],"pageList":[{"main":true,"isPage":true,"name":"home","src":"./src/page/home.page","temple":"<temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>"}],"dev":{"watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"outFileAddVersion":false},"serverPort":8080,"server":true,"autoReload":true},"build":{"basePath":"./","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true}}} 
+16:58:13.507 INFO  --------------------------- 开始编译 --------------------------- 
+16:58:13.507 INFO  程序运行目录: D:\work\take a message 
+16:58:13.507 INFO  首次启动! 
+16:58:13.507 INFO  生成版本号: jahl8pjhi6m 
+16:58:13.507 INFO  清理资源文件夹: D:\work\take a message\dist\static 
+16:58:13.507 INFO  文件夹不存在: D:\work\take a message\dist\static 
+16:58:13.508 INFO  创建文件夹: D:\work\take a message\dist\static 
+16:58:13.508 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html 
+16:58:13.508 DEBUG 读取网页标题: 页面 
+16:58:13.508 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width,initial-scale=1,user-scalable=no"}] 
+16:58:13.527 DEBUG 处理模板: ./src/page/topBar.page 
+16:58:13.539 DEBUG 处理模板: ./src/page/banner.page 
+16:58:13.542 DEBUG 处理模板: ./src/page/tagCloud.page 
+16:58:13.644 DEBUG 处理模板: ./src/page/messageBox.page 
+16:58:13.647 DEBUG 处理模板: ./src/page/swiper.page 
+16:58:13.674 DEBUG 处理模板: ./src/page/footer.page 
+16:58:13.686 DEBUG 处理模板: http://cunchu.site/ozzx/template/copyright.page 
+16:58:14.444 DEBUG 处理模板: ./src/page/showImageBox.page 
+16:58:14.458 INFO  文件夹不存在: D:\work\take a message\dist\static\resource 
+16:58:14.458 INFO  创建文件夹: D:\work\take a message\dist\static\resource 
+16:58:14.474 INFO  工程中只有一个页面! 
+16:58:14.474 INFO  文件夹不存在: D:\work\take a message\dist\static\css 
+16:58:14.475 INFO  创建文件夹: D:\work\take a message\dist\static\css 
+16:58:14.475 INFO  写文件: D:\work\take a message\dist\static\css\ozzx.animation.jahl8pjhi6m.css 
+16:58:14.475 DEBUG 页面中不包含切换动画! 
+16:58:15.288 INFO  文件夹不存在: D:\work\take a message\dist\static\js 
+16:58:15.288 INFO  创建文件夹: D:\work\take a message\dist\static\js 
+16:58:15.290 DEBUG 处理引用脚本: [{"name":"main","src":"./src/main.js","babel":true},{"name":"tagcanvas","src":"./src/script/tagcanvas.js","babel":false,"defer":false},{"name":"swiper2","src":"./src/script/idangerous.swiper2.7.6.min.js"},{"name":"3dflow","src":"./src/script/idangerous.swiper.3dflow.js"}] 
+16:58:15.290 DEBUG 外部脚本数量: 4 
+16:58:15.290 DEBUG 处理脚本: main 
+16:58:15.290 DEBUG 使用bable处理脚本! 
+16:58:15.290 DEBUG 处理脚本: tagcanvas 
+16:58:15.290 DEBUG 不使用bable处理脚本! 
+16:58:15.290 INFO  读取文件: D:\work\take a message\src\script\tagcanvas.js 
+16:58:15.290 DEBUG 处理脚本: swiper2 
+16:58:15.290 DEBUG 不使用bable处理脚本! 
+16:58:15.290 INFO  读取文件: D:\work\take a message\src\script\idangerous.swiper2.7.6.min.js 
+16:58:15.290 DEBUG 处理脚本: 3dflow 
+16:58:15.290 DEBUG 不使用bable处理脚本! 
+16:58:15.290 INFO  读取文件: D:\work\take a message\src\script\idangerous.swiper.3dflow.js 
+16:58:15.470 DEBUG 需要经过特殊处理的css: [[".ox-titleBar .title-bar ",".ox-titleBar "],[".ox-banner .banner-box ",".ox-banner "],[".ox-messageBox .message-box ",".ox-messageBox "],[".ox-swiper .swiper-container ",".ox-swiper "],[".ox-footer .footer-box ",".ox-footer "],[".ox-copyright .copyright-box ",".ox-copyright "],[".ox-showBox .show-box ",".ox-showBox "],[".ox-home .main-box ",".ox-home "]] 
+16:58:15.470 INFO  读取文件: D:\work\take a message\src\style\idangerous.swiper2.7.6.css 
+16:58:15.470 INFO  读取文件: D:\work\take a message\src\style\idangerous.swiper.3dflow.css 
+16:58:15.470 DEBUG 判断是否可以输出Html! 
+16:58:15.470 DEBUG 还有没有经过处理的资源! 
+16:58:15.492 INFO  读取成功: D:\work\take a message\src\script\idangerous.swiper.3dflow.js 
+16:58:15.493 INFO  读取成功: D:\work\take a message\src\style\idangerous.swiper.3dflow.css 
+16:58:15.493 INFO  读取成功: D:\work\take a message\src\style\idangerous.swiper2.7.6.css 
+16:58:15.493 INFO  读取成功: D:\work\take a message\src\main.css 
+16:58:15.795 INFO  写入文件: D:\work\take a message\dist\static\css\swiper2.css 
+16:58:15.796 INFO  使用babel处理并生成文件: D:\work\take a message\dist\static\js\main.js 
+16:58:15.796 DEBUG 判断是否可以输出Html! 
+16:58:15.796 DEBUG 准备输出html! 
+16:58:15.799 INFO  写入文件: D:\work\take a message\dist\static\js\3dflow.js 
+16:58:15.799 INFO  写入文件: D:\work\take a message\dist\static\css\3dflow.css 
+16:58:15.799 INFO  写入文件: D:\work\take a message\dist\static\css\main.css 
+16:58:15.826 INFO  读取成功: D:\work\take a message\src\script\idangerous.swiper2.7.6.min.js 
+16:58:15.831 INFO  读取成功: D:\work\take a message\src\script\tagcanvas.js 
+16:58:15.908 INFO  写入文件: D:\work\take a message\dist\static\js\swiper2.js 
+16:58:15.908 INFO  写入文件: D:\work\take a message\dist\static\js\tagcanvas.js 
