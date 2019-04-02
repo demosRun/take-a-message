@@ -70,7 +70,7 @@
   box-sizing: border-box;
   padding: 0 20px;
   margin: 10px 0;
-  height: 180px;
+  height: 200px;
 }
 .message-box-title {
   color: rgba(237, 112, 0, 1.00);
@@ -79,7 +79,7 @@
   height: 50px;
 }
 .message-box-text {
-  height: 130px;
+  height: 150px;
   line-height: 25px;
   color: rgba(68, 68, 68, 1.00);
   overflow: hidden;
@@ -101,21 +101,23 @@
   float: left;
 }
 .right-box {
-  width: calc(100% - 150px);
+  width: calc(100% - 140px);
   padding: 10px 0;
-  height: 300px;
+  height: 320px;
   position: absolute;
   top: 0;
   bottom: 0;
   margin: auto;
-  left: 130px;
+  left: 120px;
   color: #444444;
   overflow-y: auto;
   padding-right: 5px;
+  white-space: normal;
+  word-break:break-all;
 }
 .active {
   background-color: #d83649;
   color: white;
-  width: 120px;
+  width: 110px;
 }
 </style>

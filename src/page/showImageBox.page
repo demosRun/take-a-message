@@ -37,7 +37,7 @@ img {
   background-image: url('@&close.png&');
   width: 25px;
   height: 25px;
-  right: 80px;
+  right: 65px;
   top: 20px;
   background-size: 25px;
 }
