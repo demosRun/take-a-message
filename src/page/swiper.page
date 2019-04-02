@@ -1,14 +1,14 @@
 <template>
   <div class="swiper-container" @name="swiperContainer">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&1.jpg&"/><div class="slide-text">这是介绍内容这是介绍内容这是介绍内容这是介绍内容这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&2.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&3.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&4.png&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&5.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&6.png&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&7.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
-      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&8.jpg&"/><div class="slide-text">这是介绍内容</div><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&1.jpg&"/><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&2.jpg&"/><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&3.jpg&"/><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&4.png&"/><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&5.jpg&"/><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&6.png&"/><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&7.jpg&"/><div class="blinker"></div></div>
+      <div class="swiper-slide" src="http://www.people.com.cn/"><img src="@&8.jpg&"/><div class="blinker"></div></div>
     </div>
     <img class="last swiper-button" src="@&left_icon.png&" @click="last"/>
     <img class="next swiper-button" src="@&right_icon.png&" @click="next"/>
@@ -42,10 +42,8 @@
             shadows:true
           },
           onSlideClick: function(swiper, e) {
-            // 排除掉标签
-            if (e.target.classList[0] == 'slide-text') return
             if (swiper.activeIndex == swiper.clickedSlideIndex - 1) {
-              const url = swiper.clickedSlide.firstChild.src
+              const url = swiper.clickedSlide.children[0].src
               document.getElementById('showBoxImage').src = url
               document.getElementById('showBox').style.top = '0'
             }
@@ -67,8 +65,6 @@
             roundLengths : true
           },
           onSlideClick: function(swiper, e) {
-            if (e.target.classList[0] == 'slide-text') return
-            // .getAttribute("src")
             const url = swiper.clickedSlide.getAttribute("src")
             if (url) {
               window.open(url)
@@ -96,19 +92,6 @@
   position: relative;
   img {
     width: 100%;
-  }
-  .slide-text {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    text-align: center;
-    line-height: 40px;
-    color: white;
-    font-size: 14px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
 }
 .swiper-container {

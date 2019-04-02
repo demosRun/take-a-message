@@ -380,11 +380,8 @@ window.ozzx = {
                   shadows: true
                 },
                 onSlideClick: function onSlideClick(swiper, e) {
-                  // 排除掉标签
-                  if (e.target.classList[0] == 'slide-text') return;
-
                   if (swiper.activeIndex == swiper.clickedSlideIndex - 1) {
-                    var url = swiper.clickedSlide.firstChild.src;
+                    var url = swiper.clickedSlide.children[0].src;
                     document.getElementById('showBoxImage').src = url;
                     document.getElementById('showBox').style.top = '0';
                   }
@@ -406,8 +403,6 @@ window.ozzx = {
                   roundLengths: true
                 },
                 onSlideClick: function onSlideClick(swiper, e) {
-                  if (e.target.classList[0] == 'slide-text') return; // .getAttribute("src")
-
                   var url = swiper.clickedSlide.getAttribute("src");
 
                   if (url) {
